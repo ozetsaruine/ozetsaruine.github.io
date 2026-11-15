@@ -14,7 +14,7 @@
   "taille_ko": 31,
   "page": "https://www.leroymerlin.fr/produits/pistolet-a-peinture-haute-pression-wagner-hea-control-pro-250r-550w-79541924.html"
  },
- "_le": "2026-11-15T23:45:37+00:00",
+ "_le": "2026-11-15T23:52:20+00:00",
  "chaux-hydraulique-prb": {
   "ok": true,
   "taille_ko": 46,
@@ -274,5 +274,20 @@
   "ok": true,
   "taille_ko": 25,
   "page": "https://www.leroymerlin.fr/produits/13-panneaux-isolants-en-textiles-recycles-isover-isocoton-ep-45mm-1-2x0-6m-r1-25-91782738.html"
+ },
+ "receveur": {
+  "ok": true,
+  "taille_ko": 29,
+  "page": "https://www.leroymerlin.fr/produits/receveur-de-douche-resine-blanc-l-100-x-l-80-cm-easy-2-91835305.html"
+ },
+ "wc-suspendu": {
+  "ok": true,
+  "taille_ko": 21,
+  "page": "https://www.leroymerlin.fr/produits/cuvette-pour-wc-suspendu-easy-sensea-91427288.html"
+ },
+ "bati-support-wc": {
+  "ok": true,
+  "taille_ko": 13,
+  "page": "https://www.leroymerlin.fr/produits/bati-support-pour-wc-suspendu-autoportant-grohe-solido-for-sensea-91689661.html"
  }
 }

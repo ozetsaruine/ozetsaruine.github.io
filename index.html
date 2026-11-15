@@ -63,7 +63,7 @@ h1,h2,h3{font-family:var(--f-titre);font-weight:700;line-height:1.1;margin:0;tex
 .portrait img{width:100%;height:100%;object-fit:cover}
 .hero-bas{height:28px}
 @media (min-width:900px){
-  .nav .wrap,.hero .wrap{max-width:1120px}
+  .nav .wrap,.hero .wrap{max-width:1280px}
   .hero{padding-block:56px}
   .hero-bas{display:none}
   .hero-grille{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:56px;align-items:center}
@@ -107,7 +107,7 @@ h1,h2,h3{font-family:var(--f-titre);font-weight:700;line-height:1.1;margin:0;tex
 .attente{color:var(--gris);font-size:15px;margin:4px 0 0}
 /* Grand écran : photo à gauche, sous-catégories en deux colonnes, détail au survol */
 @media (min-width:1000px){
-  .projets{width:min(1240px,calc(100vw - 48px));position:relative;left:50%;transform:translateX(-50%);gap:32px}
+  .projets{width:min(1240px,calc(100vw - 40px));position:relative;left:50%;transform:translateX(-50%);gap:32px}
   .projet{display:grid;grid-template-columns:minmax(0,.62fr) minmax(0,1.38fr);column-gap:56px;align-items:start;padding:44px 44px 48px;border-radius:28px}
   .projet>.pile{grid-column:1;grid-row:1/span 3;margin:8px 14px 0 0;position:sticky;top:24px}
   .projet>:not(.pile){grid-column:2}
@@ -189,7 +189,17 @@ h1,h2,h3{font-family:var(--f-titre);font-weight:700;line-height:1.1;margin:0;tex
 .outils .groupe h4{font-family:var(--f-titre);font-weight:600;font-size:22px;text-transform:uppercase;letter-spacing:.03em}
 .outils-vide{color:var(--gris);text-align:center}
 @media (min-width:760px){.outils{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (min-width:1000px){.outils{width:min(1080px,calc(100vw - 48px));position:relative;left:50%;transform:translateX(-50%);grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.outils .groupe{padding:24px}.outils .ref a.lien{padding:16px 18px;font-size:17px}}
+@media (min-width:1000px){.outils{width:min(1240px,calc(100vw - 40px));position:relative;left:50%;transform:translateX(-50%);grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.outils .groupe{padding:24px}.outils .ref a.lien{padding:16px 18px;font-size:17px}}
+/* Lien vers la caisse à outils, dans le bandeau */
+.carte-outils{display:flex;align-items:center;gap:14px;margin-top:22px;padding:12px 14px 12px 12px;border-radius:14px;background:rgba(255,255,255,.38);border:1px solid rgba(28,29,31,.12);color:var(--encre);text-decoration:none;max-width:100%}
+.co-icone{flex:none;width:48px;height:48px;border-radius:12px;background:#FFF3C4;display:grid;place-items:center;font-size:26px}
+.co-texte{display:flex;flex-direction:column;min-width:0;line-height:1.3}
+.co-texte b{font-family:var(--f-titre);font-weight:600;font-size:20px;text-transform:uppercase;letter-spacing:.02em}
+.co-texte span{font-size:15px;color:#4a3e10}
+.co-fleche{margin-left:auto;flex:none;width:38px;height:38px;border-radius:50%;background:var(--encre);color:var(--jaune);display:grid;place-items:center}
+.carte-outils:hover{background:rgba(255,255,255,.6)}
+.carte-outils:hover .co-fleche{transform:translateX(2px)}
+@media (prefers-reduced-motion:no-preference){.carte-outils,.co-fleche{transition:background .15s,transform .15s}}
 footer{text-align:center;color:var(--gris);font-size:15px;padding-block:56px calc(40px + env(safe-area-inset-bottom,0px))}
 footer p{margin:0 auto 18px;max-width:52ch}
 </style>
@@ -221,12 +231,16 @@ footer p{margin:0 auto 18px;max-width:52ch}
     <p class="surtitre-hero">Le journal du chantier / Rêve 01</p>
     <h1>Oz (et sa RUIN'E)</h1>
     <p class="accroche">Rêve 1/100 : transformer une RUIN'E en maison. Suivez le chantier, projet après projet.</p>
-    <a class="btn btn-noir" href="outils.html" data-goatcounter-click="autre-page-outils">🧰 Voir tous mes outils <span aria-hidden="true">→</span></a>
     <label class="recherche" for="q">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
       <input id="q" type="search" placeholder="Projet, matériau, référence…" autocomplete="off" aria-describedby="q-aide">
     </label>
     <p class="aide" id="q-aide">Tapez plusieurs mots pour filtrer les projets.</p>
+    <a class="carte-outils" href="outils.html" data-goatcounter-click="autre-page-outils">
+      <span class="co-icone" aria-hidden="true">🧰</span>
+      <span class="co-texte"><b>Ma caisse à outils</b><span>Tous les outils du chantier, rangés par type de travaux</span></span>
+      <span class="co-fleche" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+    </a>
     </div>
     <div class="portrait">
       <img src="images/oz.jpg" alt="Oz, sourire, t-shirt noir, devant des pins" onerror="this.remove()">

@@ -309,58 +309,6 @@ footer p{margin:0 auto 18px;max-width:52ch}
 /* ====== Les projets et leurs références : c'est ici qu'on ajoute ou modifie un lien ====== */
 const PROJETS=[
  {
-  "titre": "Arabian room",
-  "photo": "images/arabian-room.jpg",
-  "desc": "Une chambre sur le thème des milles et une nuits",
-  "quand": "Octobre-Novembre 2027",
-  "pile": "#7f86d6",
-  "fond": "#2f3ea8",
-  "groupes": []
- },
- {
-  "titre": "Le gros œuvre",
-  "photo": "images/gros-oeuvre.jpg",
-  "desc": "Les bases de la transformation de la RUIN'E.",
-  "groupes": [
-   {
-    "nom": "Murs & enduits",
-    "refs": [
-     {
-      "id": "enduit-chaux",
-      "nom": "🧱 Enduit chaux intérieur",
-      "url": "#",
-      "t": 1
-     }
-    ]
-   },
-   {
-    "nom": "Cave & structure",
-    "refs": [
-     {
-      "id": "rustol-92-biosource",
-      "nom": "🛡️ Stop rouille incolore",
-      "url": "https://c3po.link/QxFpfCdgdy",
-      "note": "Owatrol Rustol 92 Biosource (1 L) : une huile antirouille incolore qui pénètre la rouille jusqu'au métal sain et la bloque, sans changer l'aspect du métal.",
-      "avis": "Idéal pour stopper la rouille des poutrelles sans tout décaper : on brosse ce qui s'écaille, on applique au pinceau et le produit fait le reste. Le tips : il sert aussi de primaire, tu peux peindre par-dessus une fois sec.",
-      "photo": "images/produits/rustol-92-biosource.jpg",
-      "t": 1,
-      "a": 1
-     },
-     {
-      "id": "rustol-deco-mat",
-      "nom": "🎨 Peinture sur poutrelle rouillée",
-      "url": "https://c3po.link/Qu8vsxE3ZZ",
-      "note": "Owatrol Rustol Déco mat (0,75 L) : peinture antirouille décorative à finition mate, qui protège et embellit le métal, en intérieur comme en extérieur.",
-      "avis": "Parfaite pour redonner un coup de propre aux poutrelles : le rendu mat fait tout de suite plus fini qu'une peinture brillante. Le tips : passe d'abord le stop rouille incolore pour une protection maximale.",
-      "photo": "images/produits/rustol-deco-mat.jpg",
-      "t": 1,
-      "a": 1
-     }
-    ]
-   }
-  ]
- },
- {
   "titre": "La bat-cave",
   "photo": "images/bat-cave.jpg",
   "desc": "Un atelier organisé pour les prochains projets.",
@@ -478,6 +426,69 @@ const PROJETS=[
       "nom": "🖌️ Vernis étagères personnalisées",
       "url": "#",
       "t": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "titre": "Le gros œuvre",
+  "photo": "images/gros-oeuvre.jpg",
+  "desc": "Les bases de la transformation de la RUIN'E.",
+  "groupes": [
+   {
+    "nom": "Murs & enduits",
+    "refs": [
+     {
+      "id": "enduit-chaux",
+      "nom": "🧱 Enduit chaux intérieur",
+      "url": "#",
+      "t": 1
+     },
+     {
+      "id": "chaux-hydraulique-prb",
+      "nom": "🪣 Chaux hydraulique",
+      "url": "https://c3po.link/Q7yc3BzYds",
+      "note": "PRB Chaux grise hydraulique (20 kg) : liant naturel pour mortiers et enduits, à utiliser pure ou mélangée à du ciment, en intérieur comme en extérieur.",
+      "avis": "La base de mes enduits à la chaux : le mur respire, ce qui est indispensable sur les vieux murs de la RUIN'E pour éviter l'humidité. Le tips : humidifie bien le mur avant d'appliquer, et protège tes yeux et tes mains, la chaux est irritante.",
+      "photo": "images/produits/chaux-hydraulique-prb.jpg",
+      "t": 1,
+      "a": 1
+     },
+     {
+      "id": "sable-2mm",
+      "nom": "🏖️ Sable pour enduit",
+      "url": "https://c3po.link/nQBfrJmYHW",
+      "note": "Agrégats de sable 2 mm (35 kg) : sable fin et régulier, idéal pour les enduits et les rejointoiements.",
+      "avis": "Un sable fin pour un enduit bien lisse, à mélanger avec la chaux. Le tips : compte en général 1 volume de chaux pour 2 à 3 volumes de sable, et fais un petit test avant de te lancer sur tout le mur.",
+      "photo": "images/produits/sable-2mm.jpg",
+      "t": 1,
+      "a": 1
+     }
+    ]
+   },
+   {
+    "nom": "Cave & structure",
+    "refs": [
+     {
+      "id": "rustol-92-biosource",
+      "nom": "🛡️ Stop rouille incolore",
+      "url": "https://c3po.link/QxFpfCdgdy",
+      "note": "Owatrol Rustol 92 Biosource (1 L) : une huile antirouille incolore qui pénètre la rouille jusqu'au métal sain et la bloque, sans changer l'aspect du métal.",
+      "avis": "Idéal pour stopper la rouille des poutrelles sans tout décaper : on brosse ce qui s'écaille, on applique au pinceau et le produit fait le reste. Le tips : il sert aussi de primaire, tu peux peindre par-dessus une fois sec.",
+      "photo": "images/produits/rustol-92-biosource.jpg",
+      "t": 1,
+      "a": 1
+     },
+     {
+      "id": "rustol-deco-mat",
+      "nom": "🎨 Peinture sur poutrelle rouillée",
+      "url": "https://c3po.link/Qu8vsxE3ZZ",
+      "note": "Owatrol Rustol Déco mat (0,75 L) : peinture antirouille décorative à finition mate, qui protège et embellit le métal, en intérieur comme en extérieur.",
+      "avis": "Parfaite pour redonner un coup de propre aux poutrelles : le rendu mat fait tout de suite plus fini qu'une peinture brillante. Le tips : passe d'abord le stop rouille incolore pour une protection maximale.",
+      "photo": "images/produits/rustol-deco-mat.jpg",
+      "t": 1,
+      "a": 1
      }
     ]
    }

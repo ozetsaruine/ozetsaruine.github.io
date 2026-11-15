@@ -162,6 +162,18 @@ h1,h2,h3{font-family:var(--f-titre);font-weight:700;line-height:1.1;margin:0;tex
 .pill-noir{background:var(--encre);color:#fff}
 .copie{display:block;font-size:13px;color:var(--gris);margin:-8px 0 22px;min-height:1em}
 
+/* Encart et page Mes outils */
+.vers-outils{display:flex;align-items:center;gap:16px;background:var(--jaune);color:var(--encre);border-radius:18px;padding:18px 22px;text-decoration:none;margin:4px 0 8px;font-size:16px;line-height:1.35}
+.vers-outils b{font-family:var(--f-titre);font-size:22px;font-weight:600;text-transform:uppercase;letter-spacing:.02em}
+.vo-emoji{font-size:34px;flex:none}
+.vo-fleche{margin-left:auto;font-size:26px;flex:none}
+.vers-outils:hover{background:var(--jaune-fonce)}
+.outils{display:grid;gap:18px;padding-block:8px 40px;align-items:start}
+.outils .groupe{margin-top:0;background:var(--carte);border:1px solid var(--bord)}
+.outils .groupe h4{font-family:var(--f-titre);font-weight:600;font-size:22px;text-transform:uppercase;letter-spacing:.03em}
+.outils-vide{color:var(--gris);text-align:center}
+@media (min-width:760px){.outils{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (min-width:1000px){.outils{width:min(1080px,calc(100vw - 48px));position:relative;left:50%;transform:translateX(-50%);grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.outils .groupe{padding:24px}.outils .ref a.lien{padding:16px 18px;font-size:17px}}
 footer{text-align:center;color:var(--gris);font-size:15px;padding-block:56px calc(40px + env(safe-area-inset-bottom,0px))}
 footer p{margin:0 auto 18px;max-width:52ch}
 </style>
@@ -173,7 +185,7 @@ footer p{margin:0 auto 18px;max-width:52ch}
       <span class="logo" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="#1C1D1F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 15L15 6l10 9"/><path d="M8 13v12h14V13"/><path d="M13 25v-6h4v6"/><path d="M24 4l2.5 2.5M27 9h3M21.5 3V0.5"/></svg></span>
       <span>Oz (et sa RUIN'E)</span>
     </a>
-    <div class="liens"><a href="#projets">Mes projets</a><a href="#videos">Vidéos</a><a href="#contact">Contact</a></div>
+    <div class="liens"><a href="#projets">Mes projets</a><a href="outils.html">Mes outils</a><a href="#videos">Vidéos</a><a href="#contact">Contact</a></div>
     <div class="reseaux">
       <button type="button" id="reseaux-btn" aria-expanded="false" aria-controls="reseaux-menu">@ozir_off <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
       <ul class="menu" id="reseaux-menu" hidden>
@@ -217,6 +229,8 @@ footer p{margin:0 auto 18px;max-width:52ch}
     <p class="section-intro">Retrouvez les travaux, les matériaux et les équipements, classés par projet et par sous-catégorie.</p>
 
     <div class="projets" id="liste-projets"></div>
+
+    <a class="vers-outils" href="outils.html" data-goatcounter-click="autre-page-outils"><span class="vo-emoji" aria-hidden="true">🧰</span><span><b>Ma caisse à outils</b><br>Tous les outils que j'utilise, rangés par type de travaux</span><span class="vo-fleche" aria-hidden="true">→</span></a>
 
     <p class="surtitre">Sur Instagram</p>
     <h2 class="section-titre" style="text-transform:none;letter-spacing:0">Le chantier en images</h2>

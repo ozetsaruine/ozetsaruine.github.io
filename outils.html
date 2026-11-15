@@ -291,7 +291,7 @@ const REFS=Object.fromEntries(OUTILS.flatMap(g=>g.refs).map(r=>[r.id,r]));
     if(courant)courant.classList.remove("actif");courant=li;li.classList.add("actif");
     const lien=r.url&&r.url!=="#";
     fiche.innerHTML=`<div class="fiche-photo">${r.photo?`<img src="${esc(r.photo)}" alt="${esc(nomCourt(r.nom))}" loading="lazy">`:`<span>Photo à venir</span>`}</div>
-      <h5>${esc(nomCourt(r.nom))}</h5>${lignesFiche(r)}<p class="f-mention">${MENTION}</p>
+      <h5>${esc(nomCourt(r.nom))}</h5>${lignesFiche(r)}
       <div class="fiche-actions">${lien?`<a href="${esc(r.url)}" target="_blank" rel="${r.a?"sponsored ":""}noopener"${r.t?` data-goatcounter-click="item-${esc(r.id)}" data-goatcounter-title="${esc(r.nom)}"`:""}>Voir le produit ↗</a>`:""}<button type="button" data-fermer>Fermer</button></div>`;
     fiche.hidden=false;
     const b=li.getBoundingClientRect(),W=fiche.offsetWidth,H=fiche.offsetHeight;

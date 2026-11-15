@@ -272,7 +272,6 @@ const MENTION="Un clic sur le lien du produit vous redirige vers le site marchan
 const nomCourt=n=>String(n).replace(/^[\p{Extended_Pictographic}️‍\s]+/u,"");
 function lignesFiche(r){return [
   r.note?`<p>${esc(r.note)}</p>`:`<p>Utilisé sur le chantier de la RUIN'E.</p>`,
-  r.prix?`<p class="f-prix">Prix indicatif : ${esc(r.prix)}</p>`:"",
   r.avis?`<div class="f-avis"><b>💡 Le conseil d'Oz</b><p>${esc(r.avis)}</p></div>`:""].join("")}
 function detailHTML(r){return lignesFiche(r)+`<p class="f-mention" style="font-size:13px">${MENTION}</p>`}
 function rendre(){

@@ -320,7 +320,6 @@ const PROJETS=[
       "nom": "🎨 Peinture sur poutrelle rouillée",
       "url": "https://c3po.link/Qu8vsxE3ZZ",
       "note": "Owatrol Rustol Déco mat (0,75 L) : peinture antirouille décorative à finition mate, qui protège et embellit le métal, en intérieur comme en extérieur.",
-      "prix": "34,98 € (0,75 L)",
       "avis": "Parfaite pour redonner un coup de propre aux poutrelles : le rendu mat fait tout de suite plus fini qu'une peinture brillante. Le tips : passe d'abord le stop rouille incolore pour une protection maximale.",
       "photo": "images/produits/rustol-deco-mat.jpg",
       "t": 1,
@@ -467,7 +466,6 @@ const MENTION="Un clic sur le lien du produit vous redirige vers le site marchan
 const nomCourt=n=>String(n).replace(/^[\p{Extended_Pictographic}️‍\s]+/u,"");
 function lignesFiche(r){return [
   r.note?`<p>${esc(r.note)}</p>`:`<p>Utilisé sur le chantier de la RUIN'E.</p>`,
-  r.prix?`<p class="f-prix">Prix indicatif : ${esc(r.prix)}</p>`:"",
   r.avis?`<div class="f-avis"><b>💡 Le conseil d'Oz</b><p>${esc(r.avis)}</p></div>`:""].join("")}
 function detailHTML(r){return lignesFiche(r)+`<p class="f-mention" style="font-size:13px">${MENTION}</p>`}
 function rendre(){

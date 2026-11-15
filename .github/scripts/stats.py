@@ -16,7 +16,7 @@ def appel(methode, chemin):
     ETAPE[0] = f"{methode} {chemin}"
     req = urllib.request.Request(BASE + chemin, method=methode,
         headers={"Authorization": "Bearer " + TOKEN, "Content-Type": "application/json"},
-        data=b"{}" if methode == "POST" else None)
+        data=b"{\"format\":\"csv\"}" if methode == "POST" else None)
     with urllib.request.urlopen(req, timeout=60) as r:
         return r.read()
 

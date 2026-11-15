@@ -14,5 +14,15 @@
   "taille_ko": 31,
   "page": "https://www.leroymerlin.fr/produits/pistolet-a-peinture-haute-pression-wagner-hea-control-pro-250r-550w-79541924.html"
  },
- "_le": "2026-11-15T19:41:36+00:00"
+ "_le": "2026-11-15T19:52:07+00:00",
+ "chaux-hydraulique-prb": {
+  "ok": true,
+  "taille_ko": 46,
+  "page": "https://www.leroymerlin.fr/produits/chaux-grise-hydraulique-ce-prb-20-kg-67805185.html"
+ },
+ "sable-2mm": {
+  "ok": true,
+  "taille_ko": 62,
+  "page": "https://www.leroymerlin.fr/produits/agregats-de-sable-2-mm-35-kg-71648311.html"
+ }
 }

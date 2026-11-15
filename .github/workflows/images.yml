@@ -1,0 +1,21 @@
+name: Photos produits
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["images/produits/demandes.json", ".github/scripts/images.py", ".github/workflows/images.yml"]
+permissions:
+  contents: write
+concurrency: images
+jobs:
+  images:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install pillow
+      - run: python3 .github/scripts/images.py
+      - run: |
+          git config user.name "Photos produits"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add images/produits
+          git diff --cached --quiet || (git commit -m "Photos produits du $(date -u +%F)" && git pull --rebase -q && git push)

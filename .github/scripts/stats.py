@@ -11,7 +11,9 @@ def etat(ok, msg, **kw):
     json.dump({"ok": ok, "message": msg, "le": datetime.now(timezone.utc).isoformat(timespec="seconds"), **kw},
               open("stats/etat.json", "w"), ensure_ascii=False, indent=1)
 
+ETAPE = ["début"]
 def appel(methode, chemin):
+    ETAPE[0] = f"{methode} {chemin}"
     req = urllib.request.Request(BASE + chemin, method=methode,
         headers={"Authorization": "Bearer " + TOKEN, "Content-Type": "application/json"},
         data=b"{}" if methode == "POST" else None)
@@ -36,6 +38,9 @@ try:
         time.sleep(5)
     else:
         raise RuntimeError("L'export GoatCounter n'a pas fini à temps")
+    if not st.get("num_rows"):
+        etat(True, "Aucune visite enregistrée par GoatCounter pour l'instant", export=st)
+        sys.exit(0)
     brut = appel("GET", f"/export/{exp['id']}/download")
     try: brut = gzip.decompress(brut)
     except OSError: pass
@@ -67,6 +72,8 @@ try:
         json.dump({"jours": dict(sorted(js.items()))}, open(f"stats/{m}.json", "w"), ensure_ascii=False, indent=1)
     etat(True, "Stats à jour", jours=len(jours), dernierJour=max(jours) if jours else None)
 except urllib.error.HTTPError as e:
-    etat(False, f"GoatCounter a répondu {e.code} : {e.read()[:300].decode('utf-8','replace')}")
+    etat(False, f"GoatCounter a répondu {e.code} à {ETAPE[0]} : {e.read()[:300].decode('utf-8','replace')}")
+except SystemExit:
+    pass
 except Exception as e:
-    etat(False, str(e)[:400])
+    etat(False, f"{ETAPE[0]} : {str(e)[:400]}")

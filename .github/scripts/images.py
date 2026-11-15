@@ -1,6 +1,6 @@
 """Pour chaque produit de images/produits/demandes.json ({id, url}) sans photo :
 suit le lien (affilié), lit la page produit, récupère la photo principale, la compresse
-(800 px max, JPEG qualité 72) en images/produits/<id>.jpg et note titre, description et prix
+(600 px max, JPEG qualité 70) en images/produits/<id>.jpg et note titre, description et prix
 dans images/produits/infos/<id>.json. Résultat global dans images/produits/rapport.json."""
 import html, io, json, os, re, urllib.request
 from datetime import datetime, timezone
@@ -59,8 +59,8 @@ for d in demandes:
         if img.startswith("//"): img = "https:" + img
         _, octets = get(img, "image/avif,image/webp,image/*")
         im = Image.open(io.BytesIO(octets)).convert("RGB")
-        im.thumbnail((800, 800))
-        im.save(f"{D}/{pid}.jpg", "JPEG", quality=72, optimize=True, progressive=True)
+        im.thumbnail((600, 600))
+        im.save(f"{D}/{pid}.jpg", "JPEG", quality=70, optimize=True, progressive=True)
         rapport[pid] = {"ok": True, "taille_ko": round(os.path.getsize(f"{D}/{pid}.jpg") / 1024), "page": infos["page"]}
     except Exception as e:
         rapport[pid] = {"ok": False, "erreur": f"{type(e).__name__}: {str(e)[:200]}"}

@@ -14,7 +14,7 @@
   "taille_ko": 31,
   "page": "https://www.leroymerlin.fr/produits/pistolet-a-peinture-haute-pression-wagner-hea-control-pro-250r-550w-79541924.html"
  },
- "_le": "2026-11-15T23:52:20+00:00",
+ "_le": "2026-11-15T23:54:32+00:00",
  "chaux-hydraulique-prb": {
   "ok": true,
   "taille_ko": 46,
@@ -289,5 +289,25 @@
   "ok": true,
   "taille_ko": 13,
   "page": "https://www.leroymerlin.fr/produits/bati-support-pour-wc-suspendu-autoportant-grohe-solido-for-sensea-91689661.html"
+ },
+ "chaussures-securite": {
+  "ok": true,
+  "taille_ko": 29,
+  "page": "https://www.leroymerlin.fr/produits/chaussures-de-securite-hautes-s3-t41-82624937.html"
+ },
+ "maillet-caoutchouc": {
+  "ok": true,
+  "taille_ko": 8,
+  "page": "https://www.leroymerlin.fr/produits/maillet-de-caoutchouc-blanc-0-555-kg-dexter-81968470.html"
+ },
+ "redresseur-multicouche-d16": {
+  "ok": true,
+  "taille_ko": 18,
+  "page": "https://www.leroymerlin.fr/produits/redresseur-manuel-pour-tube-multicouche-d16-86734620.html"
+ },
+ "redresseur-multicouche-d20": {
+  "ok": true,
+  "taille_ko": 18,
+  "page": "https://www.leroymerlin.fr/produits/redresseur-manuel-pour-tube-multicouche-d20-86734623.html"
  }
 }

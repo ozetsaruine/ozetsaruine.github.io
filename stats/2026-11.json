@@ -87,11 +87,14 @@
    }
   },
   "2026-11-15": {
-   "v": 1,
-   "p": 1,
-   "c": {},
+   "v": 3,
+   "p": 3,
+   "c": {
+    "autre-facebook": 1,
+    "autre-instagram": 1
+   },
    "s": {
-    "Accès direct": 1
+    "Accès direct": 3
    }
   }
  }

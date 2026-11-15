@@ -14,7 +14,7 @@
   "taille_ko": 31,
   "page": "https://www.leroymerlin.fr/produits/pistolet-a-peinture-haute-pression-wagner-hea-control-pro-250r-550w-79541924.html"
  },
- "_le": "2026-11-15T21:03:49+00:00",
+ "_le": "2026-11-15T22:48:52+00:00",
  "chaux-hydraulique-prb": {
   "ok": true,
   "taille_ko": 46,
@@ -144,5 +144,30 @@
   "ok": true,
   "taille_ko": 32,
   "page": "https://www.leroymerlin.fr/produits/vernis-cuisine-et-bain-luxens-incolore-mat-0-75l-69571306.html"
+ },
+ "radiateur-prodige": {
+  "ok": true,
+  "taille_ko": 11,
+  "page": "https://www.leroymerlin.fr/produits/radiateur-eau-chaude-horizontal-prodige-modern-blanc-1240w-h-55-7-x-l-80-cm-35963781.html"
+ },
+ "systeme-galandage": {
+  "ok": true,
+  "taille_ko": 39,
+  "page": "https://www.leroymerlin.fr/produits/systeme-a-galandage-pour-porte-de-largeur-73-cm-galis-artens-88884004.html"
+ },
+ "carreaux-metro": {
+  "ok": true,
+  "taille_ko": 34,
+  "page": "https://www.leroymerlin.fr/produits/carrelage-mur-interieur-blanc-metro-l-7-5-x-l-15-cm-x-ep-7-mm-artens-70723646.html"
+ },
+ "joints-terracotta": {
+  "ok": true,
+  "taille_ko": 27,
+  "page": "https://www.leroymerlin.fr/produits/joint-de-carrelage-5kg-keracolor-ff-mapei-145-terre-de-sienne-82374307.html"
+ },
+ "carrelage-bois": {
+  "ok": true,
+  "taille_ko": 34,
+  "page": "https://www.leroymerlin.fr/produits/carrelage-sol-mur-interieur-effet-bois-marron-naturel-malte-l-19-8-x-l-119-8-cm-91656777.html"
  }
 }

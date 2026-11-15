@@ -95,7 +95,7 @@ h1,h2,h3{font-family:var(--f-titre);font-weight:700;line-height:1.1;margin:0;tex
 .groupe{background:var(--sous-bloc);border-radius:14px;padding:14px 14px 12px;margin-top:12px}
 .groupe h4{margin:0 0 10px;font-size:16px;font-weight:700}
 .refs{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
-.ref{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:stretch}
+.ref{display:grid;grid-template-columns:1fr;gap:10px;align-items:stretch}
 .ref a.lien{display:flex;align-items:center;justify-content:space-between;gap:10px;background:var(--pastille);border-radius:8px;padding:11px 14px;text-decoration:none;color:#4a4330;min-width:0}
 .ref a.lien span{overflow-wrap:anywhere}
 .ref a.lien:hover{background:#F8E58C;color:var(--encre)}
@@ -128,13 +128,16 @@ h1,h2,h3{font-family:var(--f-titre);font-weight:700;line-height:1.1;margin:0;tex
   .ref.actif a.lien,.ref a.lien:focus-visible{background:#F8E58C;color:var(--encre)}
 }
 /* Fiche produit au survol (ordinateur) */
-.fiche{position:absolute;z-index:20;width:300px;background:var(--carte);border:1px solid var(--bord);border-radius:20px;padding:18px;box-shadow:0 18px 40px rgba(0,0,0,.16);display:flex;flex-direction:column;gap:10px}
-.fiche-photo{aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:repeating-linear-gradient(135deg,#ECEAE5 0 10px,#E3E0D9 10px 11px)}
-.fiche-photo img{width:100%;height:100%;object-fit:cover}
+.fiche{position:absolute;z-index:20;width:320px;background:var(--carte);border:1px solid var(--bord);border-radius:20px;padding:18px;box-shadow:0 18px 40px rgba(0,0,0,.16);display:flex;flex-direction:column;gap:10px}
+.fiche-photo{aspect-ratio:4/3;border-radius:12px;overflow:hidden;background:#fff repeating-linear-gradient(135deg,#ECEAE5 0 10px,#E3E0D9 10px 11px);display:grid;place-items:center}
+.fiche-photo img{width:100%;height:100%;object-fit:contain;background:#fff}
+.fiche-photo span{background:#F3F1EC;color:var(--gris);font-size:14px;padding:6px 12px;border-radius:6px}
 .fiche h5{font-family:var(--f-titre);font-weight:600;font-size:26px;line-height:1.08;margin:6px 0 2px}
 .fiche p{margin:0;color:var(--gris);font-size:15px;line-height:1.5}
 .fiche .f-prix{color:var(--encre);font-weight:700}
-.fiche .f-avis b{color:var(--encre)}
+.fiche .f-avis{background:var(--pastille);border-radius:12px;padding:10px 12px}
+.fiche .f-avis b{display:block;color:var(--encre);font-size:14px;margin-bottom:3px}
+.fiche .f-avis p{color:#4a4330;font-size:14px}
 .fiche .f-mention{font-size:13px}
 .fiche-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px}
 .fiche-actions a,.fiche-actions button{border:0;border-radius:8px;padding:10px 14px;font:inherit;font-size:15px;font-weight:600;cursor:pointer;text-decoration:none}
@@ -218,7 +221,7 @@ footer p{margin:0 auto 18px;max-width:52ch}
     <p class="surtitre-hero">Le journal du chantier / Rêve 01</p>
     <h1>Oz (et sa RUIN'E)</h1>
     <p class="accroche">Rêve 1/100 : transformer une RUIN'E en maison. Suivez le chantier, projet après projet.</p>
-    <a class="btn btn-noir" href="#projets">Découvrir mes projets</a>
+    <a class="btn btn-noir" href="outils.html" data-goatcounter-click="autre-page-outils">🧰 Voir tous mes outils <span aria-hidden="true">→</span></a>
     <label class="recherche" for="q">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
       <input id="q" type="search" placeholder="Projet, matériau, référence…" autocomplete="off" aria-describedby="q-aide">
@@ -242,8 +245,6 @@ footer p{margin:0 auto 18px;max-width:52ch}
     <p class="section-intro">Retrouvez les travaux, les matériaux et les équipements, classés par projet et par sous-catégorie.</p>
 
     <div class="projets" id="liste-projets"></div>
-
-    <a class="vers-outils" href="outils.html" data-goatcounter-click="autre-page-outils"><span class="vo-emoji" aria-hidden="true">🧰</span><span><b>Ma caisse à outils</b><br>Tous les outils que j'utilise, rangés par type de travaux</span><span class="vo-fleche" aria-hidden="true">→</span></a>
 
     <p class="surtitre">Sur Instagram</p>
     <h2 class="section-titre" style="text-transform:none;letter-spacing:0">Le chantier en images</h2>
@@ -309,7 +310,8 @@ const PROJETS=[
       "id": "rustol-92-biosource",
       "nom": "🛡️ Stop rouille incolore",
       "url": "https://c3po.link/QxFpfCdgdy",
-      "note": "Owatrol Rustol 92 Biosource : il pénètre la rouille et la bloque sans changer l'aspect du métal.",
+      "note": "Owatrol Rustol 92 Biosource (1 L) : une huile antirouille incolore qui pénètre la rouille jusqu'au métal sain et la bloque, sans changer l'aspect du métal.",
+      "avis": "Idéal pour stopper la rouille des poutrelles sans tout décaper : on brosse ce qui s'écaille, on applique au pinceau et le produit fait le reste. Le tips : il sert aussi de primaire, tu peux peindre par-dessus une fois sec.",
       "t": 1,
       "a": 1
      },
@@ -317,7 +319,10 @@ const PROJETS=[
       "id": "rustol-deco-mat",
       "nom": "🎨 Peinture sur poutrelle rouillée",
       "url": "https://c3po.link/Qu8vsxE3ZZ",
-      "note": "Owatrol Rustol Déco mat : peinture antirouille de finition, directement sur le métal.",
+      "note": "Owatrol Rustol Déco mat (0,75 L) : peinture antirouille décorative à finition mate, qui protège et embellit le métal, en intérieur comme en extérieur.",
+      "prix": "34,98 € (0,75 L)",
+      "avis": "Parfaite pour redonner un coup de propre aux poutrelles : le rendu mat fait tout de suite plus fini qu'une peinture brillante. Le tips : passe d'abord le stop rouille incolore pour une protection maximale.",
+      "photo": "images/produits/rustol-deco-mat.jpg",
       "t": 1,
       "a": 1
      }
@@ -463,7 +468,7 @@ const nomCourt=n=>String(n).replace(/^[\p{Extended_Pictographic}️‍\s]+/u,"")
 function lignesFiche(r){return [
   r.note?`<p>${esc(r.note)}</p>`:`<p>Utilisé sur le chantier de la RUIN'E.</p>`,
   r.prix?`<p class="f-prix">Prix indicatif : ${esc(r.prix)}</p>`:"",
-  r.avis?`<p class="f-avis"><b>L'avis d'Oz :</b> ${esc(r.avis)}</p>`:""].join("")}
+  r.avis?`<div class="f-avis"><b>💡 Le conseil d'Oz</b><p>${esc(r.avis)}</p></div>`:""].join("")}
 function detailHTML(r){return lignesFiche(r)+`<p class="f-mention" style="font-size:13px">${MENTION}</p>`}
 function rendre(){
   const L=$("#liste-projets");
@@ -473,9 +478,7 @@ function rendre(){
     <h3>${esc(p.titre)}</h3>
     ${p.quand?`<p class="meta"><b>${esc(p.quand)}</b><span>-</span><span>${esc(p.desc)}</span></p>`:`<p class="desc">${esc(p.desc)}</p>`}
     ${p.groupes.length?`<div class="groupes">`+p.groupes.map((g,j)=>`<div class="groupe"><h4>${esc(g.nom)}</h4><ul class="refs">${g.refs.map((r,k)=>`<li class="ref">
-      <a class="lien" data-id="${esc(r.id)}" href="${esc(r.url)}" ${r.url&&r.url!=="#"?`target="_blank" rel="${r.a?"sponsored ":""}noopener"`:""}${r.t?` data-goatcounter-click="item-${esc(r.id)}" data-goatcounter-title="${esc(r.nom)}"`:""}><span>${esc(r.nom)}</span>${fleche}</a>
-      <button class="oeil" type="button" aria-expanded="false" aria-controls="d-${i}-${j}-${k}" aria-label="Voir le détail : ${esc(r.nom)}">${oeil}</button>
-      <div class="detail" id="d-${i}-${j}-${k}" hidden>${detailHTML(r)}</div></li>`).join("")}</ul></div>`).join("")+`</div>`:`<p class="attente">Sous-catégories à ajouter dans la bibliothèque.</p>`}
+      <a class="lien" data-id="${esc(r.id)}" href="${esc(r.url)}" ${r.url&&r.url!=="#"?`target="_blank" rel="${r.a?"sponsored ":""}noopener"`:""}${r.t?` data-goatcounter-click="item-${esc(r.id)}" data-goatcounter-title="${esc(r.nom)}"`:""}><span>${esc(r.nom)}</span>${fleche}</a></li>`).join("")}</ul></div>`).join("")+`</div>`:`<p class="attente">Sous-catégories à ajouter dans la bibliothèque.</p>`}
   </article>`).join("")+`<p class="aucun" id="aucun" hidden>Aucun projet ne correspond à ta recherche.</p>`;
 }
 rendre();
@@ -490,7 +493,7 @@ const REFS=Object.fromEntries(PROJETS.flatMap(p=>p.groupes.flatMap(g=>g.refs)).m
     const r=trouve(li);if(!r)return;
     if(courant)courant.classList.remove("actif");courant=li;li.classList.add("actif");
     const lien=r.url&&r.url!=="#";
-    fiche.innerHTML=`${r.photo?`<div class="fiche-photo"><img src="${esc(r.photo)}" alt="${esc(nomCourt(r.nom))}" loading="lazy"></div>`:""}
+    fiche.innerHTML=`<div class="fiche-photo">${r.photo?`<img src="${esc(r.photo)}" alt="${esc(nomCourt(r.nom))}" loading="lazy">`:`<span>Photo à venir</span>`}</div>
       <h5>${esc(nomCourt(r.nom))}</h5>${lignesFiche(r)}<p class="f-mention">${MENTION}</p>
       <div class="fiche-actions">${lien?`<a href="${esc(r.url)}" target="_blank" rel="${r.a?"sponsored ":""}noopener"${r.t?` data-goatcounter-click="item-${esc(r.id)}" data-goatcounter-title="${esc(r.nom)}"`:""}>Voir le produit ↗</a>`:""}<button type="button" data-fermer>Fermer</button></div>`;
     fiche.hidden=false;
@@ -509,7 +512,6 @@ const REFS=Object.fromEntries(PROJETS.flatMap(p=>p.groupes.flatMap(g=>g.refs)).m
   addEventListener("scroll",()=>{if(!fiche.hidden&&courant){const b=courant.getBoundingClientRect();if(b.bottom<0||b.top>innerHeight)fermer()}},{passive:true});
 })();
 
-$("#liste-projets").addEventListener("click",e=>{const b=e.target.closest(".oeil");if(!b)return;const d=document.getElementById(b.getAttribute("aria-controls"));const o=b.getAttribute("aria-expanded")==="true";b.setAttribute("aria-expanded",String(!o));d.hidden=o});
 
 $("#q").addEventListener("input",e=>{
   const mots=norm(e.target.value).split(/\s+/).filter(Boolean);let n=0;

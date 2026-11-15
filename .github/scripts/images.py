@@ -42,8 +42,13 @@ for d in demandes:
     pid, lien = d["id"], d["url"]
     if os.path.exists(f"{D}/{pid}.jpg") and not d.get("refaire"): continue
     try:
-        finale, brut = get(lien)
-        page = brut.decode("utf-8", "replace")
+        try:
+            finale, brut = get(lien)
+            page = brut.decode("utf-8", "replace")
+        except Exception:
+            # Site qui bloque les robots (ex. Leroy Merlin) : on se contente de la photo fournie
+            if not d.get("image"): raise
+            finale, page = d.get("page", lien), ""
         ld = jsonld(page)
         img = d.get("image") or meta(page, "og:image", "og:image:secure_url", "twitter:image") or ld.get("image", "")
         infos = {"page": finale.split("?")[0], "titre": meta(page, "og:title") or ld.get("nom", ""),

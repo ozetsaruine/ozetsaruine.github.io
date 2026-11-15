@@ -58,7 +58,12 @@ for d in demandes:
         if not img: raise RuntimeError("aucune photo trouvée sur la page")
         if img.startswith("//"): img = "https:" + img
         _, octets = get(img, "image/avif,image/webp,image/*")
-        im = Image.open(io.BytesIO(octets)).convert("RGB")
+        im = Image.open(io.BytesIO(octets))
+        if im.mode in ("RGBA", "LA", "P"):  # PNG transparent : fond blanc plutôt que noir
+            im = im.convert("RGBA")
+            fond = Image.new("RGBA", im.size, (255, 255, 255, 255))
+            im = Image.alpha_composite(fond, im)
+        im = im.convert("RGB")
         im.thumbnail((600, 600))
         im.save(f"{D}/{pid}.jpg", "JPEG", quality=70, optimize=True, progressive=True)
         rapport[pid] = {"ok": True, "taille_ko": round(os.path.getsize(f"{D}/{pid}.jpg") / 1024), "page": infos["page"]}

@@ -1,0 +1,16 @@
+{
+ "rustol-92-biosource": {
+  "ok": false,
+  "erreur": "HTTPError: HTTP Error 403: Forbidden"
+ },
+ "rustol-deco-mat": {
+  "ok": true,
+  "taille_ko": 11,
+  "page": "https://www.owatrol.com/rustol-deco-mat.html"
+ },
+ "pistolet-peinture-wagner": {
+  "ok": false,
+  "erreur": "HTTPError: HTTP Error 403: Forbidden"
+ },
+ "_le": "2026-11-15T09:24:02+00:00"
+}

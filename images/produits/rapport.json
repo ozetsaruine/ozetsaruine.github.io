@@ -1,7 +1,8 @@
 {
  "rustol-92-biosource": {
-  "ok": false,
-  "erreur": "HTTPError: HTTP Error 403: Forbidden"
+  "ok": true,
+  "taille_ko": 70,
+  "page": "https://www.leroymerlin.fr/produits/antirouille-biosource-incolore-owatrol-rustol-owatrol-92-biosource-1-litre-71428070.html"
  },
  "rustol-deco-mat": {
   "ok": true,
@@ -9,8 +10,9 @@
   "page": "https://www.owatrol.com/rustol-deco-mat.html"
  },
  "pistolet-peinture-wagner": {
-  "ok": false,
-  "erreur": "HTTPError: HTTP Error 403: Forbidden"
+  "ok": true,
+  "taille_ko": 31,
+  "page": "https://www.leroymerlin.fr/produits/pistolet-a-peinture-haute-pression-wagner-hea-control-pro-250r-550w-79541924.html"
  },
- "_le": "2026-11-15T09:24:02+00:00"
+ "_le": "2026-11-15T19:41:36+00:00"
 }

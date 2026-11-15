@@ -14,7 +14,7 @@
   "taille_ko": 31,
   "page": "https://www.leroymerlin.fr/produits/pistolet-a-peinture-haute-pression-wagner-hea-control-pro-250r-550w-79541924.html"
  },
- "_le": "2026-11-15T23:35:44+00:00",
+ "_le": "2026-11-15T23:42:30+00:00",
  "chaux-hydraulique-prb": {
   "ok": true,
   "taille_ko": 46,
@@ -234,5 +234,40 @@
   "ok": true,
   "taille_ko": 8,
   "page": "https://www.peintagone.fr/fr/pages/colours/pe-177-pop-corn"
+ },
+ "tableau-electrique": {
+  "ok": true,
+  "taille_ko": 13,
+  "page": "https://www.leroymerlin.fr/produits/tableau-electrique-nu-4-rangees-52-modules-schneider-electric-82726716.html"
+ },
+ "meuleuse-ryobi": {
+  "ok": true,
+  "taille_ko": 14,
+  "page": "https://www.manomano.fr/p/ryobi-meuleuse-dangle-600-w-115-mm-2583094"
+ },
+ "aspirateur-ryobi": {
+  "ok": true,
+  "taille_ko": 12,
+  "page": "https://www.manomano.fr/p/aspirateur-main-ryobi-rhv18-0-18v-one-plus-600ml-sans-batterie-ni-chargeur-62304899"
+ },
+ "pistolet-mastic-ryobi": {
+  "ok": true,
+  "taille_ko": 11,
+  "page": "https://www.manomano.fr/p/pistolet-cartouche-ryobi-rcg18-0-18v-oneplus-sans-batterie-ni-chargeur-62145454"
+ },
+ "laser-ryobi": {
+  "ok": true,
+  "taille_ko": 23,
+  "page": "https://www.manomano.fr/p/laser-vert-360-ryobi-25m-de-porte-rb360gll-52000564"
+ },
+ "batteries-chargeur-ryobi": {
+  "ok": true,
+  "taille_ko": 22,
+  "page": "https://www.manomano.fr/p/rc18150-250g-pack-chargeur-ultra-rapide-5a-2-batteries-lithium-18v-one-5ah-237839677"
+ },
+ "visseuse-chocs-ryobi": {
+  "ok": true,
+  "taille_ko": 18,
+  "page": "https://www.manomano.fr/p/ryobi-85421052"
  }
 }

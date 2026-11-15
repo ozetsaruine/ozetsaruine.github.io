@@ -14,7 +14,7 @@
   "taille_ko": 31,
   "page": "https://www.leroymerlin.fr/produits/pistolet-a-peinture-haute-pression-wagner-hea-control-pro-250r-550w-79541924.html"
  },
- "_le": "2026-11-15T23:42:30+00:00",
+ "_le": "2026-11-15T23:45:37+00:00",
  "chaux-hydraulique-prb": {
   "ok": true,
   "taille_ko": 46,
@@ -269,5 +269,10 @@
   "ok": true,
   "taille_ko": 18,
   "page": "https://www.manomano.fr/p/ryobi-85421052"
+ },
+ "isolant-isocoton": {
+  "ok": true,
+  "taille_ko": 25,
+  "page": "https://www.leroymerlin.fr/produits/13-panneaux-isolants-en-textiles-recycles-isover-isocoton-ep-45mm-1-2x0-6m-r1-25-91782738.html"
  }
 }

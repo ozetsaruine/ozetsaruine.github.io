@@ -1,0 +1,14 @@
+name: Test Awin
+on:
+  workflow_dispatch:
+  push:
+    paths: ["awin/test.txt"]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 .github/scripts/awin_test.py
+        env:
+          AWIN_TOKEN: ${{ secrets.AWIN_TOKEN }}
+          AWIN_PUBLISHER_ID: ${{ secrets.AWIN_PUBLISHER_ID }}

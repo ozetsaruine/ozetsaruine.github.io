@@ -1,5 +1,18 @@
 {
- "ok": false,
- "message": "GoatCounter a répondu 400 à POST /export : {\"error\":\"unknown format: \\\"\\\"\"}",
- "le": "2026-11-15T08:20:54+00:00"
+ "ok": true,
+ "message": "Aucune visite enregistrée par GoatCounter pour l'instant",
+ "le": "2026-11-15T08:21:16+00:00",
+ "export": {
+  "id": 32228,
+  "site_id": 135818,
+  "format": "csv",
+  "last_hit_id": 0,
+  "path": "/tmp/goatcounter-export-ozetsaruine-20261115T082115Z-0.csv.gz",
+  "created_at": "2026-11-15T08:21:15.940277Z",
+  "finished_at": "2026-11-15T08:21:15.955711Z",
+  "num_rows": 0,
+  "size": "0.1",
+  "hash": "sha256-ac73670af3abed54ac6fb4695131f4099be9fbe39d6076c5d0264a6bbdae9d83",
+  "error": null
+ }
 }

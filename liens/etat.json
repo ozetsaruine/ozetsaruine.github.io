@@ -1,0 +1,585 @@
+{
+ "le": "2026-11-16T20:34:38+00:00",
+ "total": 58,
+ "ok": 4,
+ "hs": 0,
+ "a_verifier": 54,
+ "liens": [
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/plan-de-travail-stratifie-chene-collection-maison-l-315-x-p-65-cm-ep-38-mm-82835652.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "plan-travail-chene",
+   "nom": "🪵 Plan de travail chêne",
+   "url": "https://www.leroymerlin.fr/produits/plan-de-travail-stratifie-chene-collection-maison-l-315-x-p-65-cm-ep-38-mm-82835652.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/stanew-evier-multifonctionnel-70-x-45-x-22-cm-avec-egouttoir-a-tasses-distributeur-de-savon-panier-de-rangement-et-planche-a-decouper-evier-en-acier-97638248.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "evier-multifonction",
+   "nom": "🍽️ Évier multifonction",
+   "url": "https://www.leroymerlin.fr/produits/stanew-evier-multifonctionnel-70-x-45-x-22-cm-avec-egouttoir-a-tasses-distributeur-de-savon-panier-de-rangement-et-planche-a-decouper-evier-en-acier-97638248.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/robinet-de-cuisine-avec-douchette-finition-inox-tomas-delinia-87932392.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "robinet-cuisine-douchette",
+   "nom": "🚰 Robinet à douchette",
+   "url": "https://www.leroymerlin.fr/produits/robinet-de-cuisine-avec-douchette-finition-inox-tomas-delinia-87932392.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "ok",
+   "code": 200,
+   "final": "https://ryk-home.com/fr_FR/e-shop/facades/porte_ADELE_MET?color=vert_regiment_mat&marque=pour-ikea-metod&modele=pour-ikea-metod-adele",
+   "id": "facades-cuisine-ryk",
+   "nom": "🟩 Façades de cuisine vert mat",
+   "url": "https://ryk-home.com/fr_FR/e-shop/facades/porte_ADELE_MET?color=vert_regiment_mat&marque=pour-ikea-metod&modele=pour-ikea-metod-adele",
+   "page": "index.html"
+  },
+  {
+   "etat": "ok",
+   "code": 200,
+   "final": "https://ryk-home.com/fr_FR/e-shop/poignees/poign%C3%A9e_FACTORY_poign%C3%A9es?color=gris_mat&marque=poignees&modele=poignees-factory",
+   "id": "poignees-cuisine-ryk",
+   "nom": "🔲 Poignées de cuisine gris mat",
+   "url": "https://ryk-home.com/fr_FR/e-shop/poignees/poign%C3%A9e_FACTORY_poign%C3%A9es?color=gris_mat&marque=poignees&modele=poignees-factory",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/peinture-mate-murs-et-plafonds-tres-lessivable-ecolabel-finish-aqua-matt-2-5-l-pop-corn-peintagone-92255436.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "peinture-popcorn-cuisine",
+   "nom": "⚪ Peinture blanche Pop Corn",
+   "url": "https://www.leroymerlin.fr/produits/peinture-mate-murs-et-plafonds-tres-lessivable-ecolabel-finish-aqua-matt-2-5-l-pop-corn-peintagone-92255436.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/radiateur-eau-chaude-horizontal-prodige-modern-blanc-1240w-h-55-7-x-l-80-cm-35963781.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "radiateur-cuisine",
+   "nom": "🔥 Radiateur eau chaude",
+   "url": "https://www.leroymerlin.fr/produits/radiateur-eau-chaude-horizontal-prodige-modern-blanc-1240w-h-55-7-x-l-80-cm-35963781.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/tiroir-a-vis-polystyrene-33-tiroirs-allit-h-43-5x-l-30-3x-p-13-6-cm-69215104.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "rangements-vis",
+   "nom": "🔩 Casier à vis 33 tiroirs",
+   "url": "https://www.leroymerlin.fr/produits/tiroir-a-vis-polystyrene-33-tiroirs-allit-h-43-5x-l-30-3x-p-13-6-cm-69215104.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/casier-de-rangement-polystyrene-10-tiroirs-allit-h-43-5x-l-30-3x-p-16-8-cm-69250356.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "casier-10-tiroirs",
+   "nom": "🗃️ Casier 10 tiroirs",
+   "url": "https://www.leroymerlin.fr/produits/casier-de-rangement-polystyrene-10-tiroirs-allit-h-43-5x-l-30-3x-p-16-8-cm-69250356.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/lot-de-10-bacs-de-rangement-plastique-30l-empilables-noir-69982661.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "bacs-rangement-30l",
+   "nom": "📦 Bacs de rangement empilables",
+   "url": "https://www.leroymerlin.fr/produits/lot-de-10-bacs-de-rangement-plastique-30l-empilables-noir-69982661.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/lot-de-3-malles-sundis-noir-rouge-75l-h-34-x-l-39-5-x-p-77-7-cm-96896847.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "malles-sundis",
+   "nom": "🧳 Malles à roulettes",
+   "url": "https://www.leroymerlin.fr/produits/lot-de-3-malles-sundis-noir-rouge-75l-h-34-x-l-39-5-x-p-77-7-cm-96896847.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "ok",
+   "code": 200,
+   "final": "https://www.peintagone.fr/fr/pages/colours/pe-187-lava-rock",
+   "id": "peinture-terracotta",
+   "nom": "🎨 Peinture terracotta Lava Rock",
+   "url": "https://www.peintagone.fr/fr/pages/colours/pe-187-lava-rock",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/carrelage-mur-interieur-blanc-metro-l-7-5-x-l-15-cm-x-ep-7-mm-artens-70723646.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "carreaux-metro",
+   "nom": "🧱 Carrelage métro blanc",
+   "url": "https://www.leroymerlin.fr/produits/carrelage-mur-interieur-blanc-metro-l-7-5-x-l-15-cm-x-ep-7-mm-artens-70723646.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/joint-de-carrelage-5kg-keracolor-ff-mapei-145-terre-de-sienne-82374307.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "joints-terracotta",
+   "nom": "🟤 Joint de carrelage terracotta",
+   "url": "https://www.leroymerlin.fr/produits/joint-de-carrelage-5kg-keracolor-ff-mapei-145-terre-de-sienne-82374307.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/peinture-mate-murs-et-plafonds-tres-lessivable-ecolabel-finish-aqua-matt-2-5-l-pop-corn-peintagone-92255436.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "peinture-popcorn-sdb",
+   "nom": "⚪ Peinture blanche Pop Corn (plafond)",
+   "url": "https://www.leroymerlin.fr/produits/peinture-mate-murs-et-plafonds-tres-lessivable-ecolabel-finish-aqua-matt-2-5-l-pop-corn-peintagone-92255436.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/colonne-de-douche-mitigeur-mecanique-1-jet-s-chrome-studio-sensea-90346524.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "colonne-douche",
+   "nom": "🚿 Colonne de douche",
+   "url": "https://www.leroymerlin.fr/produits/colonne-de-douche-mitigeur-mecanique-1-jet-s-chrome-studio-sensea-90346524.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/receveur-de-douche-resine-blanc-l-100-x-l-80-cm-easy-2-91835305.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "receveur",
+   "nom": "🚿 Receveur de douche extra-plat",
+   "url": "https://www.leroymerlin.fr/produits/receveur-de-douche-resine-blanc-l-100-x-l-80-cm-easy-2-91835305.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/cuvette-pour-wc-suspendu-easy-sensea-91427288.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "wc-suspendu",
+   "nom": "🚽 Cuvette WC suspendu",
+   "url": "https://www.leroymerlin.fr/produits/cuvette-pour-wc-suspendu-easy-sensea-91427288.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/bati-support-pour-wc-suspendu-autoportant-grohe-solido-for-sensea-91689661.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "bati-support-wc",
+   "nom": "🔧 Bâti-support WC suspendu",
+   "url": "https://www.leroymerlin.fr/produits/bati-support-pour-wc-suspendu-autoportant-grohe-solido-for-sensea-91689661.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/meuble-vasque-1p-l-40-x-h-57-7-x-p-24cm-effet-chene-naturel-remix-82400590.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "meuble-remix",
+   "nom": "🗄️ Meuble vasque Remix chêne",
+   "url": "https://www.leroymerlin.fr/produits/meuble-vasque-1p-l-40-x-h-57-7-x-p-24cm-effet-chene-naturel-remix-82400590.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/plaque-de-commande-pour-wc-suspendu-blanc-solido-for-sensea-grohe-91427292.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "plaque-chasse-wc",
+   "nom": "🚽 Plaque de chasse d'eau",
+   "url": "https://www.leroymerlin.fr/produits/plaque-de-commande-pour-wc-suspendu-blanc-solido-for-sensea-grohe-91427292.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/robinet-de-lavabo-chrome-m-remix-sensea-88737174.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "robinet-lavabo-remix",
+   "nom": "🚰 Robinet de lavabo",
+   "url": "https://www.leroymerlin.fr/produits/robinet-de-lavabo-chrome-m-remix-sensea-88737174.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/carrelage-sol-mur-interieur-effet-bois-marron-naturel-malte-l-19-8-x-l-119-8-cm-91656777.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "carrelage-bois",
+   "nom": "🪵 Carrelage imitation bois",
+   "url": "https://www.leroymerlin.fr/produits/carrelage-sol-mur-interieur-effet-bois-marron-naturel-malte-l-19-8-x-l-119-8-cm-91656777.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/sous-couche-incolore-pour-parquet-v33-2-5l-69667885.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "sous-couche-etageres",
+   "nom": "🖌️ Sous-couche bois incolore",
+   "url": "https://www.leroymerlin.fr/produits/sous-couche-incolore-pour-parquet-v33-2-5l-69667885.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/vernis-cuisine-et-bain-luxens-incolore-mat-0-75l-69571306.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "vernis-etageres",
+   "nom": "🖌️ Vernis incolore mat",
+   "url": "https://www.leroymerlin.fr/produits/vernis-cuisine-et-bain-luxens-incolore-mat-0-75l-69571306.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/systeme-a-galandage-pour-porte-de-largeur-73-cm-galis-artens-88884004.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "systeme-galandage",
+   "nom": "🚪 Châssis à galandage",
+   "url": "https://www.leroymerlin.fr/produits/systeme-a-galandage-pour-porte-de-largeur-73-cm-galis-artens-88884004.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/porte-coulissante-mdf-cali-chene-clair-h-204-x-l-73-cm-82861321.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "porte-coulissante-chene",
+   "nom": "🚪 Porte coulissante chêne clair",
+   "url": "https://www.leroymerlin.fr/produits/porte-coulissante-mdf-cali-chene-clair-h-204-x-l-73-cm-82861321.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/kit-habillage-pour-porte-coulissante-a-galandage-max-93cm-galis-artens-88884010.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "habillage-porte-galandage",
+   "nom": "🔲 Habillage de porte à galandage",
+   "url": "https://www.leroymerlin.fr/produits/kit-habillage-pour-porte-coulissante-a-galandage-max-93cm-galis-artens-88884010.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/miroir-lumineux-antibue-ovale-l-40-x-h-80-cm-modern-87732031.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "miroir-lumineux",
+   "nom": "🪞 Miroir lumineux antibuée",
+   "url": "https://www.leroymerlin.fr/produits/miroir-lumineux-antibue-ovale-l-40-x-h-80-cm-modern-87732031.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/porte-serviette-barres-2barres-a-visser-a-monter-argente-charme-sensea-87912969.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "porte-serviettes-double",
+   "nom": "🛁 Porte-serviettes double",
+   "url": "https://www.leroymerlin.fr/produits/porte-serviette-barres-2barres-a-visser-a-monter-argente-charme-sensea-87912969.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/derouleur-papier-wc-remix-a-visser-chrome-87926418.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "derouleur-papier-wc",
+   "nom": "🧻 Dérouleur papier WC",
+   "url": "https://www.leroymerlin.fr/produits/derouleur-papier-wc-remix-a-visser-chrome-87926418.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/gobelet-de-salle-de-bains-glaze-terracotta-sensea-91990952.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "gobelet-terracotta",
+   "nom": "🪥 Gobelet terracotta",
+   "url": "https://www.leroymerlin.fr/produits/gobelet-de-salle-de-bains-glaze-terracotta-sensea-91990952.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/distributeur-de-savon-240ml-ceramique-terracotta-glaze-sensea-91990970.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "distributeur-savon-terracotta",
+   "nom": "🧼 Distributeur de savon terracotta",
+   "url": "https://www.leroymerlin.fr/produits/distributeur-de-savon-240ml-ceramique-terracotta-glaze-sensea-91990970.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/pot-avec-brosse-wc-integree-rouge-glaze-sensea-91990998.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "brosse-wc-terracotta",
+   "nom": "🚽 Brosse WC terracotta",
+   "url": "https://www.leroymerlin.fr/produits/pot-avec-brosse-wc-integree-rouge-glaze-sensea-91990998.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/chaux-grise-hydraulique-ce-prb-20-kg-67805185.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "chaux-hydraulique-prb",
+   "nom": "🪣 Chaux hydraulique",
+   "url": "https://www.leroymerlin.fr/produits/chaux-grise-hydraulique-ce-prb-20-kg-67805185.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/agregats-de-sable-2-mm-35-kg-71648311.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "sable-2mm",
+   "nom": "🏖️ Sable pour enduit",
+   "url": "https://www.leroymerlin.fr/produits/agregats-de-sable-2-mm-35-kg-71648311.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/antirouille-biosource-incolore-owatrol-rustol-owatrol-92-biosource-1-litre-71428070.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "rustol-92-biosource",
+   "nom": "🛡️ Stop rouille incolore",
+   "url": "https://www.leroymerlin.fr/produits/antirouille-biosource-incolore-owatrol-rustol-owatrol-92-biosource-1-litre-71428070.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "ok",
+   "code": 200,
+   "final": "https://www.owatrol.com/rustol-deco-mat.html?utm_source=affilae&utm_medium=affiliation&utm_campaign=oz&ae=25",
+   "id": "rustol-deco-mat",
+   "nom": "🎨 Peinture sur poutrelle rouillée",
+   "url": "https://www.owatrol.com/rustol-deco-mat.html?utm_source=affilae&utm_medium=affiliation&utm_campaign=oz&ae=25",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/tableau-electrique-nu-4-rangees-52-modules-schneider-electric-82726716.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "tableau-electrique",
+   "nom": "⚡ Tableau électrique 4 rangées",
+   "url": "https://www.leroymerlin.fr/produits/tableau-electrique-nu-4-rangees-52-modules-schneider-electric-82726716.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/13-panneaux-isolants-en-textiles-recycles-isover-isocoton-ep-45mm-1-2x0-6m-r1-25-91782738.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "isolant-isocoton",
+   "nom": "🧶 Isolant en textiles recyclés",
+   "url": "https://www.leroymerlin.fr/produits/13-panneaux-isolants-en-textiles-recycles-isover-isocoton-ep-45mm-1-2x0-6m-r1-25-91782738.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.manomano.fr/p/xs01-m-detecteur-de-fumee-intelligent-interconnecte-88071136?model_id=93654768&sv1=affiliate&sv_campaign_id=3130302&referer_id=687217&awc=17547_1794861276_b27ac618c6506162be2824f33198eecc&utm_source=awin&utm_medium=affiliation&utm_campaign=Awin_Affiliation_FR_ozir_off_3130302",
+   "detail": "le marchand bloque les robots",
+   "id": "detecteur-fumee-xsense",
+   "nom": "🔥📲 Détecteurs de fumée connectés",
+   "url": "https://tidd.ly/4zWuc44",
+   "page": "index.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/pistolet-a-peinture-haute-pression-wagner-hea-control-pro-250r-550w-79541924.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "pistolet-peinture-wagner",
+   "nom": "🎨🔫 Pistolet à peinture haute pression",
+   "url": "https://www.leroymerlin.fr/produits/pistolet-a-peinture-haute-pression-wagner-hea-control-pro-250r-550w-79541924.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "outils.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/kit-ruban-led-de-chantier-l-30m-4000-kelvins-800-lumens-m-ip44-kalgo-inspire-87978128.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "ruban-led-chantier",
+   "nom": "💡 Ruban LED de chantier",
+   "url": "https://www.leroymerlin.fr/produits/kit-ruban-led-de-chantier-l-30m-4000-kelvins-800-lumens-m-ip44-kalgo-inspire-87978128.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "outils.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/pistolet-a-cartouche-sans-fil-pvc-rglu18-ryobi-89508841.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "pistolet-colle-ryobi",
+   "nom": "🔥 Pistolet à colle sans fil",
+   "url": "https://www.leroymerlin.fr/produits/pistolet-a-cartouche-sans-fil-pvc-rglu18-ryobi-89508841.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "outils.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.manomano.fr/p/pistolet-cartouche-ryobi-rcg18-0-18v-oneplus-sans-batterie-ni-chargeur-62145454?model_id=65182413&sv1=affiliate&sv_campaign_id=3130302&referer_id=687217&awc=17547_1794861276_a5b0fb8b398930a366d1d38c004bde04&utm_source=awin&utm_medium=affiliation&utm_campaign=Awin_Affiliation_FR_ozir_off_3130302",
+   "detail": "le marchand bloque les robots",
+   "id": "pistolet-mastic-ryobi",
+   "nom": "🔫 Pistolet à mastic sans fil",
+   "url": "https://www.awin1.com/cread.php?awinmid=17547&awinaffid=3130302&campaign=&clickref=pistolet-mastic-ryobi&clickref2=&clickref3=&clickref4=&clickref5=&clickref6=&ued=https%3A%2F%2Fwww.manomano.fr%2Fp%2Fpistolet-cartouche-ryobi-rcg18-0-18v-oneplus-sans-batterie-ni-chargeur-62145454%3Fmodel_id%3D65182413&platform=pl",
+   "page": "outils.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/detecteur-de-materiaux-manuel-dexter-md-098-90846793.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "detecteur-materiaux",
+   "nom": "🔍 Détecteur de matériaux",
+   "url": "https://www.leroymerlin.fr/produits/detecteur-de-materiaux-manuel-dexter-md-098-90846793.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "outils.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.manomano.fr/p/laser-vert-360-ryobi-25m-de-porte-rb360gll-52000564?sv1=affiliate&sv_campaign_id=3130302&referer_id=687217&awc=17547_1794861277_1a1bcb295451b40beeb9ef3f4fddfab1&utm_source=awin&utm_medium=affiliation&utm_campaign=Awin_Affiliation_FR_ozir_off_3130302",
+   "detail": "le marchand bloque les robots",
+   "id": "laser-ryobi",
+   "nom": "🟢 Laser vert 360°",
+   "url": "https://www.awin1.com/cread.php?awinmid=17547&awinaffid=3130302&campaign=&clickref=laser-ryobi&clickref2=&clickref3=&clickref4=&clickref5=&clickref6=&ued=https%3A%2F%2Fwww.manomano.fr%2Fp%2Flaser-vert-360-ryobi-25m-de-porte-rb360gll-52000564&platform=pl",
+   "page": "outils.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/pack-de-2-outils-sans-fils-ryobi-rck182-242s-2-batteries-2ah-4ah-88878255.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "pack-ryobi-2-outils",
+   "nom": "🔋 Pack perceuse + meuleuse Ryobi",
+   "url": "https://www.leroymerlin.fr/produits/pack-de-2-outils-sans-fils-ryobi-rck182-242s-2-batteries-2ah-4ah-88878255.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "outils.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.manomano.fr/p/ryobi-85421052?sv1=affiliate&sv_campaign_id=3130302&referer_id=687217&awc=17547_1794861277_6ba7858a28bce4a8829ee79c02b1cba9&utm_source=awin&utm_medium=affiliation&utm_campaign=Awin_Affiliation_FR_ozir_off_3130302",
+   "detail": "le marchand bloque les robots",
+   "id": "visseuse-chocs-ryobi",
+   "nom": "🔩 Visseuse à chocs sans fil",
+   "url": "https://www.awin1.com/cread.php?awinmid=17547&awinaffid=3130302&campaign=&clickref=visseuse-chocs-ryobi&clickref2=&clickref3=&clickref4=&clickref5=&clickref6=&ued=https%3A%2F%2Fwww.manomano.fr%2Fp%2Fryobi-85421052&platform=pl",
+   "page": "outils.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/scie-a-onglet-dexter-dx216-216-mm-1700-w-82371963.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "scie-onglet-dexter",
+   "nom": "🪚 Scie à onglet",
+   "url": "https://www.leroymerlin.fr/produits/scie-a-onglet-dexter-dx216-216-mm-1700-w-82371963.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "outils.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/scie-circulaire-filaire-bosch-pks-66-2-af-1600-w-190-mm-rail-de-guidage-67538940.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "scie-circulaire-bosch",
+   "nom": "🪚 Scie circulaire avec rail",
+   "url": "https://www.leroymerlin.fr/produits/scie-circulaire-filaire-bosch-pks-66-2-af-1600-w-190-mm-rail-de-guidage-67538940.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "outils.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.manomano.fr/p/ryobi-meuleuse-dangle-600-w-115-mm-2583094?model_id=2583094&sv1=affiliate&sv_campaign_id=3130302&referer_id=687217&awc=17547_1794861277_a9e747c01bcec6edb295aa21d048dbce&utm_source=awin&utm_medium=affiliation&utm_campaign=Awin_Affiliation_FR_ozir_off_3130302",
+   "detail": "le marchand bloque les robots",
+   "id": "meuleuse-ryobi",
+   "nom": "⚙️ Meuleuse d'angle",
+   "url": "https://www.awin1.com/cread.php?awinmid=17547&awinaffid=3130302&campaign=&clickref=meuleuse-ryobi&clickref2=&clickref3=&clickref4=&clickref5=&clickref6=&ued=https%3A%2F%2Fwww.manomano.fr%2Fp%2Fryobi-meuleuse-dangle-600-w-115-mm-2583094%3Fmodel_id%3D2583094&platform=pl",
+   "page": "outils.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.manomano.fr/p/aspirateur-main-ryobi-rhv18-0-18v-one-plus-600ml-sans-batterie-ni-chargeur-62304899?product_id=79070529&sv1=affiliate&sv_campaign_id=3130302&referer_id=687217&awc=17547_1794861278_f52766abcbe4336ca4d3d3693c548b6f&utm_source=awin&utm_medium=affiliation&utm_campaign=Awin_Affiliation_FR_ozir_off_3130302",
+   "detail": "le marchand bloque les robots",
+   "id": "aspirateur-ryobi",
+   "nom": "🧹 Aspirateur à main sans fil",
+   "url": "https://www.awin1.com/cread.php?awinmid=17547&awinaffid=3130302&campaign=&clickref=aspirateur-ryobi&clickref2=&clickref3=&clickref4=&clickref5=&clickref6=&ued=https%3A%2F%2Fwww.manomano.fr%2Fp%2Faspirateur-main-ryobi-rhv18-0-18v-one-plus-600ml-sans-batterie-ni-chargeur-62304899%3Fproduct_id%3D79070529&platform=pl",
+   "page": "outils.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.manomano.fr/p/rc18150-250g-pack-chargeur-ultra-rapide-5a-2-batteries-lithium-18v-one-5ah-237839677?sv1=affiliate&sv_campaign_id=3130302&referer_id=687217&awc=17547_1794861278_3b3c9bda267f50c58b985ed1b84f9fcd&utm_source=awin&utm_medium=affiliation&utm_campaign=Awin_Affiliation_FR_ozir_off_3130302",
+   "detail": "le marchand bloque les robots",
+   "id": "batteries-chargeur-ryobi",
+   "nom": "🔌 Chargeur + 2 batteries 5 Ah",
+   "url": "https://www.awin1.com/cread.php?awinmid=17547&awinaffid=3130302&campaign=&clickref=batteries-chargeur-ryobi&clickref2=&clickref3=&clickref4=&clickref5=&clickref6=&ued=https%3A%2F%2Fwww.manomano.fr%2Fp%2Frc18150-250g-pack-chargeur-ultra-rapide-5a-2-batteries-lithium-18v-one-5ah-237839677&platform=pl",
+   "page": "outils.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/chaussures-de-securite-hautes-s3-t41-82624937.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "chaussures-securite",
+   "nom": "🥾 Chaussures de sécurité hautes",
+   "url": "https://www.leroymerlin.fr/produits/chaussures-de-securite-hautes-s3-t41-82624937.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "outils.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/maillet-de-caoutchouc-blanc-0-555-kg-dexter-81968470.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "maillet-caoutchouc",
+   "nom": "🔨 Maillet en caoutchouc blanc",
+   "url": "https://www.leroymerlin.fr/produits/maillet-de-caoutchouc-blanc-0-555-kg-dexter-81968470.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "outils.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/redresseur-manuel-pour-tube-multicouche-d16-86734620.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "redresseur-multicouche-d16",
+   "nom": "📏 Redresseur de tube multicouche Ø16",
+   "url": "https://www.leroymerlin.fr/produits/redresseur-manuel-pour-tube-multicouche-d16-86734620.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "outils.html"
+  },
+  {
+   "etat": "a_verifier",
+   "code": 403,
+   "final": "https://www.leroymerlin.fr/produits/redresseur-manuel-pour-tube-multicouche-d20-86734623.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "detail": "le marchand bloque les robots",
+   "id": "redresseur-multicouche-d20",
+   "nom": "📏 Redresseur de tube multicouche Ø20",
+   "url": "https://www.leroymerlin.fr/produits/redresseur-manuel-pour-tube-multicouche-d20-86734623.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+   "page": "outils.html"
+  }
+ ]
+}

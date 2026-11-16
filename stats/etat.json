@@ -1,5 +1,9 @@
 {
- "ok": false,
- "message": "GoatCounter a répondu 404 à /stats/total {\"start\": \"2026-11-01T00:00:00Z\", \"end\": \"2026-11-16T23:59:59Z\"} : {\"error\":\"not found\"}",
- "le": "2026-11-16T11:27:17+00:00"
+ "ok": true,
+ "message": "Stats à jour",
+ "le": "2026-11-16T14:01:35+00:00",
+ "du": "2026-11-01",
+ "au": "2026-11-16",
+ "visites": 51,
+ "clics": 18
 }

@@ -12,24 +12,12 @@
     if(android)location.href="intent://"+sans+"#Intent;scheme="+u.protocol.replace(":","")+";package=com.android.chrome;S.browser_fallback_url="+encodeURIComponent(u.href)+";end";
     else location.href="x-safari-"+u.href;
   }
-  function secours(url){
-    var v=document.getElementById("nav-secours");if(v)v.remove();
-    v=document.createElement("div");v.id="nav-secours";v.setAttribute("role","dialog");
-    v.style.cssText="position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;flex-direction:column;gap:10px;padding:18px max(16px,env(safe-area-inset-right,0px)) calc(18px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));background:#1C1D1F;color:#fff;font:15px/1.45 system-ui,sans-serif;box-shadow:0 -8px 24px rgba(0,0,0,.25)";
-    v.innerHTML='<b style="font-size:17px">Ouvre le produit dans ton navigateur 🙏</b><span>C\'est là que tu es connecté à ton compte, et ça me permet de toucher une petite commission sans que tu paies plus cher.</span><button type="button" style="border:0;border-radius:10px;padding:13px;font:600 16px system-ui,sans-serif;background:#F5C400;color:#1C1D1F">Ouvrir dans mon navigateur</button><a style="color:#ddd;text-align:center;font-size:14px" target="_blank" rel="noopener">Continuer dans Instagram</a><button type="button" aria-label="Fermer" style="position:absolute;top:8px;right:10px;border:0;background:none;color:#fff;font-size:22px">×</button>';
-    var bs=v.querySelectorAll("button");bs[0].onclick=function(){externe(url)};bs[1].onclick=function(){v.remove()};
-    var a=v.querySelector("a");a.href=url;a.onclick=function(){v.remove()};
-    document.body.appendChild(v);
-  }
   document.addEventListener("click",function(e){
     var a=e.target.closest&&e.target.closest('a[data-goatcounter-click^="item-"],a.lien,.fiche-actions a');
     if(!a||!a.href||a.getAttribute("href")==="#")return;
     e.preventDefault();                     /* le comptage GoatCounter du clic se fait quand même */
     var url=a.href;
-    setTimeout(function(){
-      externe(url);
-      setTimeout(function(){if(document.visibilityState==="visible")secours(url)},1600);
-    },120);
+    setTimeout(function(){externe(url)},120);   /* soit il accepte d'aller dans son navigateur, soit il reste sur le site */
   });
 })();
 </script>

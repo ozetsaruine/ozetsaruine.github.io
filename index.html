@@ -102,7 +102,7 @@ h1,h2,h3{font-family:var(--f-titre);font-weight:700;line-height:1.1;margin:0;tex
 .pile{position:relative;margin:4px 8px 30px 0}
 .pile::before{content:"";position:absolute;inset:10px -10px -18px 14px;border-radius:6px;background:var(--pile,#c9c3b6);transform:rotate(2.2deg);opacity:.85}
 .photo{position:relative;border:5px solid #fff;border-radius:6px;box-shadow:0 10px 24px rgba(0,0,0,.18);aspect-ratio:16/10;overflow:hidden;background:var(--fond-photo,#d8d2c4);transform:rotate(-1deg)}
-.photo picture{display:block;width:100%;height:100%}.photo img{width:100%;height:100%;object-fit:cover}
+.photo picture{display:block;width:100%;height:100%}.photo picture~.vide{display:none}.photo img{width:100%;height:100%;object-fit:cover}
 .photo .vide{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--f-titre);font-size:22px;color:rgba(0,0,0,.35);text-transform:uppercase;letter-spacing:.06em}
 .projet h3{font-size:clamp(28px,6vw,36px);margin-bottom:10px}
 .projet .desc{color:var(--gris);margin:0 0 16px}

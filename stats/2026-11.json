@@ -99,7 +99,22 @@
     "autre-instagram": 1
    },
    "s": {
-    "Accès direct": 21
+    "Accès direct": 22
+   }
+  },
+  "2026-11-16": {
+   "v": 10,
+   "p": 10,
+   "c": {
+    "autre-page-outils": 1,
+    "item-plan-travail-chene": 1,
+    "autre-mail": 1,
+    "autre-abonnes": 1
+   },
+   "s": {
+    "Facebook": 2,
+    "Accès direct": 1,
+    "Instagram": 1
    }
   }
  }

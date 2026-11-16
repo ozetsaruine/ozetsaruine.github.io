@@ -16,7 +16,9 @@
     else location.href="x-safari-https://"+cible;
   }catch(e){}}
   /* après l'affichage de la page : si la redirection échoue, le site reste visible */
-  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",function(){setTimeout(ouvre,50)});else setTimeout(ouvre,50);
+  /* Android : tout de suite (repli prévu par Chrome) ; iPhone : après l'affichage, pour éviter une page blanche */
+  if(android)ouvre();
+  else if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",function(){setTimeout(ouvre,50)});else setTimeout(ouvre,50);
   setTimeout(function(){
     if(document.visibilityState!=="visible")return;       /* le navigateur s'est ouvert */
     (function compte(n){var g=window.goatcounter;if(g&&g.count)g.count({path:location.pathname,referrer:src});else if(n<20)setTimeout(function(){compte(n+1)},300)})(0);

@@ -11,20 +11,22 @@
   if(!android&&!ios)return;
   window.goatcounter={no_onload:true};                    /* la visite sera comptée dans le navigateur */
   var cible=u.host+u.pathname+u.search+u.hash,repli=new URL(u.href);repli.searchParams.set("nav","app");
-  try{
+  function ouvre(){try{
     if(android)location.href="intent://"+cible+"#Intent;scheme=https;S.browser_fallback_url="+encodeURIComponent(repli.href)+";end";
     else location.href="x-safari-https://"+cible;
-  }catch(e){}
+  }catch(e){}}
+  /* après l'affichage de la page : si la redirection échoue, le site reste visible */
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",function(){setTimeout(ouvre,50)});else setTimeout(ouvre,50);
   setTimeout(function(){
     if(document.visibilityState!=="visible")return;       /* le navigateur s'est ouvert */
     (function compte(n){var g=window.goatcounter;if(g&&g.count)g.count({path:location.pathname,referrer:src});else if(n<20)setTimeout(function(){compte(n+1)},300)})(0);
     var b=document.createElement("div");
     b.setAttribute("role","note");
-    b.style.cssText="position:fixed;left:0;right:0;bottom:0;z-index:50;display:flex;gap:12px;align-items:center;padding:12px max(16px,env(safe-area-inset-right,0px)) calc(12px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));background:var(--jaune,#F7D046);color:var(--encre,#1C1D1F);font:15px/1.4 system-ui,sans-serif;box-shadow:0 -6px 20px rgba(0,0,0,.15)";
-    b.innerHTML='<span style="flex:1">Pour une meilleure expérience, ouvre le site dans ton navigateur : touche <b>⋯</b> en haut puis <b>« Ouvrir dans le navigateur »</b>.</span><button type="button" aria-label="Fermer" style="border:0;background:rgba(0,0,0,.08);border-radius:50%;width:32px;height:32px;font-size:18px;color:inherit;cursor:pointer">×</button>';
+    b.style.cssText="position:fixed;left:0;right:0;bottom:0;z-index:50;display:flex;gap:12px;align-items:center;padding:12px max(16px,env(safe-area-inset-right,0px)) calc(12px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));background:var(--encre,#1C1D1F);color:#fff;font:15px/1.4 system-ui,sans-serif;box-shadow:0 -6px 20px rgba(0,0,0,.15)";
+    b.innerHTML='<span style="flex:1">Pour une meilleure expérience, ouvre le site dans ton navigateur : touche <b>⋯</b> en haut puis <b>« Ouvrir dans le navigateur »</b>.</span><button type="button" aria-label="Fermer" style="border:0;background:rgba(255,255,255,.15);border-radius:50%;width:32px;height:32px;font-size:18px;color:inherit;cursor:pointer">×</button>';
     b.querySelector("button").onclick=function(){b.remove()};
     document.body.appendChild(b);
-  },1500);
+  },1800);
 })();
 </script>
 

@@ -103,6 +103,13 @@ h1,h2,h3{font-family:var(--f-titre);font-weight:700;line-height:1.1;margin:0;tex
 .pile::before{content:"";position:absolute;inset:10px -10px -18px 14px;border-radius:6px;background:var(--pile,#c9c3b6);transform:rotate(2.2deg);opacity:.85}
 .photo{position:relative;border:5px solid #fff;border-radius:6px;box-shadow:0 10px 24px rgba(0,0,0,.18);aspect-ratio:16/10;overflow:hidden;background:var(--fond-photo,#d8d2c4);transform:rotate(-1deg)}
 .photo picture{display:block;width:100%;height:100%}.photo picture~.vide{display:none}.photo img{width:100%;height:100%;object-fit:cover}
+.pile .dos{position:absolute;inset:10px -10px -18px 14px;border-radius:6px;overflow:hidden;transform:rotate(2.2deg);border:4px solid #fff;box-shadow:0 8px 18px rgba(0,0,0,.14);background:var(--pile,#c9c3b6)}
+.pile .dos picture{display:block;width:100%;height:100%}.pile .dos img{width:100%;height:100%;object-fit:cover;opacity:.92}
+.pile.carrousel::before{display:none}.pile .photo{z-index:1}
+.fl{position:absolute;top:50%;z-index:3;width:38px;height:38px;margin-top:-19px;border:0;border-radius:50%;background:rgba(255,255,255,.82);color:#222;font-size:24px;line-height:1;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.18);opacity:.8;transition:opacity .2s,background .2s}
+.fl:hover{background:#fff;opacity:1}.fl-g{left:10px}.fl-d{right:10px}
+.compteur{position:absolute;z-index:3;right:12px;bottom:10px;padding:2px 8px;border-radius:10px;background:rgba(0,0,0,.45);color:#fff;font-size:12px;opacity:.8;transition:opacity .2s}
+@media (hover:hover){.pile .fl,.pile .compteur{opacity:0}.pile:hover .fl,.pile:hover .compteur,.pile .fl:focus-visible{opacity:.9}}
 .photo .vide{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--f-titre);font-size:22px;color:rgba(0,0,0,.35);text-transform:uppercase;letter-spacing:.06em}
 .projet h3{font-size:clamp(28px,6vw,36px);margin-bottom:10px}
 .projet .desc{color:var(--gris);margin:0 0 16px}
@@ -128,7 +135,7 @@ h1,h2,h3{font-family:var(--f-titre);font-weight:700;line-height:1.1;margin:0;tex
   .projet>.pile{grid-column:1;grid-row:1/span 3;margin:8px 14px 0 0;position:sticky;top:24px}
   .projet>:not(.pile){grid-column:2}
   .photo{aspect-ratio:5/6}
-  .pile::before{inset:30px -22px -30px 30px;transform:rotate(3deg)}
+  .pile::before,.pile .dos{inset:30px -22px -30px 30px;transform:rotate(3deg)}
   .projet h3{font-size:clamp(40px,4vw,56px);margin:6px 0 12px}
   .projet .desc,.meta{font-size:18px;margin-bottom:26px}
   .groupes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;align-items:start}
@@ -403,7 +410,17 @@ const PROJETS=[
     ]
    }
   ],
-  "photoPortrait": "images/projets/cuisine-portrait.jpg"
+  "photoPortrait": "images/projets/cuisine-portrait.jpg",
+  "photos": [
+   {
+    "l": "images/projets/cuisine.jpg",
+    "p": "images/projets/cuisine-portrait.jpg"
+   },
+   {
+    "l": "images/projets/cuisine-2.jpg",
+    "p": "images/projets/cuisine-2-portrait.jpg"
+   }
+  ]
  },
  {
   "titre": "La bat-cave",
@@ -456,7 +473,21 @@ const PROJETS=[
     ]
    }
   ],
-  "photoPortrait": "images/projets/bat-cave-portrait.jpg"
+  "photoPortrait": "images/projets/bat-cave-portrait.jpg",
+  "photos": [
+   {
+    "l": "images/projets/bat-cave.jpg",
+    "p": "images/projets/bat-cave-portrait.jpg"
+   },
+   {
+    "l": "images/projets/bat-cave-2.jpg",
+    "p": "images/projets/bat-cave-2-portrait.jpg"
+   },
+   {
+    "l": "images/projets/bat-cave-3.jpg",
+    "p": "images/projets/bat-cave-3-portrait.jpg"
+   }
+  ]
  },
  {
   "titre": "Salle de bain — Arabian room",
@@ -724,7 +755,17 @@ const PROJETS=[
     ]
    }
   ],
-  "photoPortrait": "images/projets/sdb-arabian-room-portrait.jpg"
+  "photoPortrait": "images/projets/sdb-arabian-room-portrait.jpg",
+  "photos": [
+   {
+    "l": "images/projets/sdb-arabian-room.jpg",
+    "p": "images/projets/sdb-arabian-room-portrait.jpg"
+   },
+   {
+    "l": "images/projets/sdb-arabian-room-2.jpg",
+    "p": "images/projets/sdb-arabian-room-2-portrait.jpg"
+   }
+  ]
  },
  {
   "titre": "Général",
@@ -829,11 +870,12 @@ function lignesFiche(r){return [
   r.note?`<p>${esc(r.note)}</p>`:`<p>Utilisé sur le chantier de la RUIN'E.</p>`,
   r.avis?`<div class="f-avis"><b>💡 Le conseil d'Oz</b><p>${esc(r.avis)}</p></div>`:""].join("")}
 function detailHTML(r){return lignesFiche(r)+`<p class="f-mention" style="font-size:13px">${MENTION}</p>`}
+const photosDe=p=>p.photos&&p.photos.length?p.photos:(p.photo?[{l:p.photo,p:p.photoPortrait}]:[]);
+const imgProjet=(ph,p,dos)=>`<picture>${ph.p?`<source media="(min-width:1000px)" srcset="${esc(ph.p)}">`:""}<img src="${esc(ph.l)}" alt="${dos?"":esc(p.titre)+" – projet de rénovation de la RUIN'E par Oz"}" loading="lazy" onerror="this.closest('picture').remove()"></picture>`;
 function rendre(){
   const L=$("#liste-projets");
   L.innerHTML=PROJETS.map((p,i)=>`<article class="projet" data-i="${i}" data-texte="${esc(norm([p.titre,p.desc,p.quand,...p.groupes.flatMap(g=>[g.nom,...g.refs.map(r=>r.nom+" "+(r.note||""))])].join(" ")))}">
-    <div class="pile" style="${p.pile?`--pile:${p.pile}`:""}"><div class="photo" style="${p.fond?`--fond-photo:${p.fond}`:""}">
-      ${p.photo?`<picture>${p.photoPortrait?`<source media="(min-width:1000px)" srcset="${esc(p.photoPortrait)}">`:""}<img src="${esc(p.photo)}" alt="${esc(p.titre)} – projet de rénovation de la RUIN'E par Oz" loading="lazy" onerror="this.closest('picture').remove()"></picture>`:""}<span class="vide" aria-hidden="true">${esc(p.titre)}</span></div></div>
+    ${(()=>{const ph=photosDe(p),n=ph.length;return `<div class="pile${n>1?" carrousel":""}" data-n="0" style="${p.pile?`--pile:${p.pile}`:""}">${n>1?`<div class="dos" aria-hidden="true">${imgProjet(ph[1],p,true)}</div>`:""}<div class="photo" style="${p.fond?`--fond-photo:${p.fond}`:""}">${n?imgProjet(ph[0],p):""}<span class="vide" aria-hidden="true">${esc(p.titre)}</span></div>${n>1?`<button type="button" class="fl fl-g" aria-label="Photo précédente">‹</button><button type="button" class="fl fl-d" aria-label="Photo suivante">›</button><span class="compteur" aria-live="polite">1 / ${n}</span>`:""}</div>`})()}
     <h3>${esc(p.titre)}</h3>
     ${p.quand?`<p class="meta"><b>${esc(p.quand)}</b><span>-</span><span>${esc(p.desc)}</span></p>`:`<p class="desc">${esc(p.desc)}</p>`}
     ${p.groupes.length?`<div class="groupes">`+p.groupes.map((g,j)=>`<div class="groupe"><h4>${esc(g.nom)}</h4><ul class="refs">${g.refs.map((r,k)=>`<li class="ref">
@@ -841,6 +883,16 @@ function rendre(){
   </article>`).join("")+`<p class="aucun" id="aucun" hidden>Aucun projet ne correspond à ta recherche.</p>`;
 }
 rendre();
+(()=>{const L=$("#liste-projets");if(!L)return;
+  function aller(pile,sens){const p=PROJETS[+pile.closest(".projet").dataset.i],ph=photosDe(p),n=ph.length;if(n<2)return;
+    const i=((+pile.dataset.n+sens)%n+n)%n;pile.dataset.n=i;
+    const av=pile.querySelector(".photo picture");if(av)av.outerHTML=imgProjet(ph[i],p);else pile.querySelector(".photo").insertAdjacentHTML("afterbegin",imgProjet(ph[i],p));
+    pile.querySelector(".dos").innerHTML=imgProjet(ph[(i+1)%n],p,true);
+    pile.querySelector(".compteur").textContent=`${i+1} / ${n}`;}
+  L.addEventListener("click",e=>{const b=e.target.closest(".fl");if(!b)return;e.preventDefault();aller(b.closest(".pile"),b.classList.contains("fl-g")?-1:1)});
+  let x0=null;L.addEventListener("touchstart",e=>{const p=e.target.closest(".carrousel");x0=p?e.touches[0].clientX:null},{passive:true});
+  L.addEventListener("touchend",e=>{if(x0===null)return;const p=e.target.closest(".carrousel"),dx=e.changedTouches[0].clientX-x0;x0=null;if(p&&Math.abs(dx)>40)aller(p,dx<0?1:-1)},{passive:true});
+})();
 const REFS=Object.fromEntries(PROJETS.flatMap(p=>p.groupes.flatMap(g=>g.refs)).map(r=>[r.id,r]));
 (()=>{
   const survol=matchMedia("(min-width:1000px) and (hover:hover)");

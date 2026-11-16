@@ -4,7 +4,8 @@ site marchand et classe le résultat :
   ok          : la page produit répond (200)
   hs          : 404/410, erreur DNS ou connexion, ou redirection vers l'accueil / une recherche
                 (produit retiré)
-  a_verifier  : le marchand bloque les robots (403, 429...) : impossible de conclure
+  ok_non_verifie : le lien d'affiliation redirige bien vers la page produit du marchand, mais le
+                   marchand bloque les robots (403, 429...) : la page elle-même n'est pas vérifiable
 Résultat dans liens/etat.json."""
 import json, re, urllib.request, urllib.error
 from datetime import datetime, timezone
@@ -47,7 +48,10 @@ def verifie(r):
     if code in (404, 410):
         return {"etat": "hs", "code": code, "final": final, "detail": "page introuvable"}
     if code in (401, 403, 429, 503):
-        return {"etat": "a_verifier", "code": code, "final": final, "detail": "le marchand bloque les robots"}
+        if produit_retire(r["url"], final):
+            return {"etat": "hs", "code": code, "final": final, "detail": "redirige vers l'accueil ou une recherche (produit retiré ?)"}
+        return {"etat": "ok_non_verifie", "code": code, "final": final,
+                "detail": "redirection d'affiliation OK, page produit non vérifiable (le marchand bloque les robots)"}
     if code >= 400:
         return {"etat": "hs", "code": code, "final": final, "detail": f"erreur {code}"}
     if produit_retire(r["url"], final):
@@ -58,6 +62,6 @@ res = []
 for r in refs():
     v = verifie(r); v.update(r); res.append(v)
     print(v["etat"], r["id"], v.get("code", ""), v.get("detail", ""))
-nb = {e: sum(1 for x in res if x["etat"] == e) for e in ("ok", "hs", "a_verifier")}
+nb = {e: sum(1 for x in res if x["etat"] == e) for e in ("ok", "ok_non_verifie", "hs")}
 json.dump({"le": datetime.now(timezone.utc).isoformat(timespec="seconds"), "total": len(res), **nb,
            "liens": res}, open("liens/etat.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)

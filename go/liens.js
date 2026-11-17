@@ -51,6 +51,14 @@ window.LIENS={
 "u": "https://www.leroymerlin.fr/produits/support-tv-orientable-inclinable-32-60-lexman-90023273.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
 "n": "📺 Support TV orientable"
 },
+"boite-spaceo-23l": {
+"u": "https://www.leroymerlin.fr/produits/boite-recyclee-spaceo-vert-transparent-23l-h-23-x-l-45-x-p-34-cm-92110183.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "📦 Boîte recyclée 23 L"
+},
+"boites-sundis-6l": {
+"u": "https://www.leroymerlin.fr/produits/lot-de-6-boites-plastique-transparent-sundis-6l-l-35-5-x-p-20-5-x-h-12-cm-89337243.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🗂️ Lot de 6 boîtes transparentes 6 L"
+},
 "roues-50mm-frein": {
 "u": "https://www.leroymerlin.fr/produits/4-roues-pivotante-sur-plaque-diam-50-mm-avec-frein-82629525.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
 "n": "🛞 Roulettes pivotantes avec frein"
@@ -102,6 +110,14 @@ window.LIENS={
 "fiche-male": {
 "u": "https://www.leroymerlin.fr/produits/fiche-electrique-male-2-poles-connexion-en-haut-6-a-noir-88253210.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
 "n": "🔌 Fiche électrique mâle"
+},
+"ampoule-globe-95": {
+"u": "https://www.leroymerlin.fr/produits/ampoule-led-decorative-globe-95mm-e27-1521lm-100w-blanc-tres-chaud-xanlite-84751948.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🔆 Ampoule globe 95 mm ambrée"
+},
+"ampoule-edison-nordlux": {
+"u": "https://www.leroymerlin.fr/produits/ampoule-led-decorative-edison-e27-140lm-25w-blanc-tres-chaud-nordlux-83605628.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🕯️ Ampoule Edison douce 25 W"
 },
 "carreaux-metro": {
 "u": "https://www.leroymerlin.fr/produits/carrelage-mur-interieur-blanc-metro-l-7-5-x-l-15-cm-x-ep-7-mm-artens-70723646.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
@@ -315,6 +331,10 @@ window.LIENS={
 "u": "https://www.leroymerlin.fr/produits/coffret-21-embouts-porte-embout-magnetique-dexter-96939445.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
 "n": "🔩 Coffret 21 embouts"
 },
+"extension-flexible-dexter": {
+"u": "https://www.leroymerlin.fr/produits/extension-flexible-245mm-tournevis-dexter-92241873.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🐍 Rallonge flexible pour embouts"
+},
 "scie-onglet-dexter": {
 "u": "https://www.leroymerlin.fr/produits/scie-a-onglet-dexter-dx216-216-mm-1700-w-82371963.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
 "n": "🪚 Scie à onglet"
@@ -342,6 +362,10 @@ window.LIENS={
 "chaussures-securite": {
 "u": "https://www.leroymerlin.fr/produits/chaussures-de-securite-hautes-s3-t41-82624937.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
 "n": "🥾 Chaussures de sécurité hautes"
+},
+"masque-respiratoire-integral": {
+"u": "https://www.awin1.com/cread.php?awinmid=17547&awinaffid=3130302&campaign=&clickref=masque-respiratoire-integral&clickref2=&clickref3=&clickref4=&clickref5=&clickref6=&ued=https%3A%2F%2Fwww.manomano.fr%2Fp%2Frespirateur-reutilisable-couverture-integrale-16-en-1-respirateur-a-vapeur-organique-pour-la-peinture-le-polissage-le-soudage-et-autres-protections-de-travail-74634911&platform=pl",
+"n": "😷 Masque respiratoire intégral"
 },
 "maillet-caoutchouc": {
 "u": "https://www.leroymerlin.fr/produits/maillet-de-caoutchouc-blanc-0-555-kg-dexter-81968470.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",

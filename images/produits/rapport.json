@@ -14,7 +14,7 @@
   "taille_ko": 31,
   "page": "https://www.leroymerlin.fr/produits/pistolet-a-peinture-haute-pression-wagner-hea-control-pro-250r-550w-79541924.html"
  },
- "_le": "2026-11-17T19:57:32+00:00",
+ "_le": "2026-11-17T20:01:50+00:00",
  "chaux-hydraulique-prb": {
   "ok": true,
   "taille_ko": 46,
@@ -545,12 +545,18 @@
   "page": "https://www.leroymerlin.fr/produits/extension-flexible-245mm-tournevis-dexter-92241873.html"
  },
  "masque-respiratoire-integral": {
-  "ok": false,
-  "erreur": "HTTPError: HTTP Error 403: Forbidden"
+  "ok": true,
+  "taille_ko": 23,
+  "page": "https://www.manomano.fr/p/respirateur-reutilisable-couverture-integrale-16-en-1-respirateur-a-vapeur-organique-pour-la-peinture-le-polissage-le-soudage-et-autres-protections-de-travail-74634911"
  },
  "kit-impermeabilisation-axton": {
   "ok": true,
   "taille_ko": 26,
   "page": "https://www.leroymerlin.fr/produits/kit-impermeabilisation-mur-sol-et-angle-axton-7kg-88318426.html"
+ },
+ "mastic-sikaseal-180-gachette": {
+  "ok": true,
+  "taille_ko": 9,
+  "page": "https://www.leroymerlin.fr/produits/mastic-silicone-sika-sikaseal-180-salle-de-bain-carrelage-gachette-blanc-200ml-88779260.html"
  }
 }

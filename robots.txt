@@ -2,6 +2,7 @@ User-agent: *
 Allow: /
 Disallow: /stats/
 Disallow: /liens/
+Disallow: /go/
 Disallow: /images/produits/infos/
 
 Sitemap: https://ozetsaruine.github.io/sitemap.xml

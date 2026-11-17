@@ -132,7 +132,7 @@ window.LIENS={
 "n": "🏖️ Sable pour enduit"
 },
 "rustol-92-biosource": {
-"u": "https://www.leroymerlin.fr/produits/antirouille-biosource-incolore-owatrol-rustol-owatrol-92-biosource-1-litre-71428070.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"u": "https://www.awin1.com/cread.php?awinmid=17547&awinaffid=3130302&campaign=&clickref=rustol-92-biosource&clickref2=&clickref3=&clickref4=&clickref5=&clickref6=&ued=https%3A%2F%2Fwww.manomano.fr%2Fp%2Fantirouille-biosource-incolore-owatrol-rustol-owatrol-92-biosource-1-litre-88267098&platform=pl",
 "n": "🛡️ Stop rouille incolore"
 },
 "rustol-deco-mat": {
@@ -220,7 +220,7 @@ window.LIENS={
 "n": "📏 Redresseur de tube multicouche Ø20"
 },
 "mastic-sikaseal-180-gachette": {
-"u": "https://www.leroymerlin.fr/produits/mastic-silicone-sika-sikaseal-180-salle-de-bain-carrelage-gachette-blanc-200ml-88779260.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
-"n": "Mastic silicone salle de bain à gâchette (SikaSeal-180)"
+"u": "https://www.awin1.com/cread.php?awinmid=17547&awinaffid=3130302&campaign=&clickref=mastic-sikaseal-180-gachette&clickref2=&clickref3=&clickref4=&clickref5=&clickref6=&ued=https%3A%2F%2Fwww.manomano.fr%2Fp%2Fsikaseal-180-mastic-joints-salle-de-bain-gachette-200-ml-couleur-transparent-66513144%3Fproduct_id%3D222372993&platform=pl",
+"n": "Mastic silicone salle de bain à gâchette transparent (SikaSeal-180)"
 }
 };

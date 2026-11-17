@@ -17,7 +17,14 @@
     if(!a||!a.href||a.getAttribute("href")==="#")return;
     e.preventDefault();                     /* le comptage GoatCounter du clic se fait quand même */
     var url=a.href;
+    /* mesure : la personne accepte-t-elle de quitter l'appli ? (événements GoatCounter nav-<os>-tente / -accepte / -refuse) */
+    var os=android?"android":"ios",fait=false;
+    function ev(n){var g=window.goatcounter;if(g&&g.count)g.count({path:"nav-"+os+"-"+n,title:"Ouverture navigateur : "+n,event:true})}
+    function quitte(){if(document.visibilityState==="hidden"&&!fait){fait=true;ev("accepte")}}
+    document.addEventListener("visibilitychange",quitte);
+    ev("tente");
     setTimeout(function(){externe(url)},120);   /* soit il accepte d'aller dans son navigateur, soit il reste sur le site */
+    setTimeout(function(){document.removeEventListener("visibilitychange",quitte);if(!fait){fait=true;ev("refuse")}},15000);
   });
 })();
 </script>

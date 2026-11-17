@@ -14,7 +14,7 @@
   "taille_ko": 31,
   "page": "https://www.leroymerlin.fr/produits/pistolet-a-peinture-haute-pression-wagner-hea-control-pro-250r-550w-79541924.html"
  },
- "_le": "2026-11-17T19:32:06+00:00",
+ "_le": "2026-11-17T19:33:23+00:00",
  "chaux-hydraulique-prb": {
   "ok": true,
   "taille_ko": 46,
@@ -518,5 +518,34 @@
   "ok": true,
   "taille_ko": 10,
   "page": "https://www.leroymerlin.fr/produits/lampe-frontale-rechargeable-150-lumens-lexman-96417729.html"
+ },
+ "boite-spaceo-23l": {
+  "ok": true,
+  "taille_ko": 14,
+  "page": "https://www.leroymerlin.fr/produits/boite-recyclee-spaceo-vert-transparent-23l-h-23-x-l-45-x-p-34-cm-92110183.html"
+ },
+ "boites-sundis-6l": {
+  "ok": true,
+  "taille_ko": 18,
+  "page": "https://www.leroymerlin.fr/produits/lot-de-6-boites-plastique-transparent-sundis-6l-l-35-5-x-p-20-5-x-h-12-cm-89337243.html"
+ },
+ "ampoule-globe-95": {
+  "ok": true,
+  "taille_ko": 11,
+  "page": "https://www.leroymerlin.fr/produits/ampoule-led-decorative-globe-95mm-e27-1521lm-100w-blanc-tres-chaud-xanlite-84751948.html"
+ },
+ "ampoule-edison-nordlux": {
+  "ok": true,
+  "taille_ko": 19,
+  "page": "https://www.leroymerlin.fr/produits/ampoule-led-decorative-edison-e27-140lm-25w-blanc-tres-chaud-nordlux-83605628.html"
+ },
+ "extension-flexible-dexter": {
+  "ok": true,
+  "taille_ko": 12,
+  "page": "https://www.leroymerlin.fr/produits/extension-flexible-245mm-tournevis-dexter-92241873.html"
+ },
+ "masque-respiratoire-integral": {
+  "ok": false,
+  "erreur": "HTTPError: HTTP Error 403: Forbidden"
  }
 }

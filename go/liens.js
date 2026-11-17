@@ -27,13 +27,81 @@ window.LIENS={
 "u": "https://www.leroymerlin.fr/produits/casier-de-rangement-polystyrene-10-tiroirs-allit-h-43-5x-l-30-3x-p-16-8-cm-69250356.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
 "n": "🗃️ Casier 10 tiroirs"
 },
-"bacs-rangement-30l": {
-"u": "https://www.leroymerlin.fr/produits/lot-de-10-bacs-de-rangement-plastique-30l-empilables-noir-69982661.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
-"n": "📦 Bacs de rangement empilables"
-},
 "malles-sundis": {
 "u": "https://www.leroymerlin.fr/produits/lot-de-3-malles-sundis-noir-rouge-75l-h-34-x-l-39-5-x-p-77-7-cm-96896847.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
 "n": "🧳 Malles à roulettes"
+},
+"boite-clip-17l": {
+"u": "https://www.leroymerlin.fr/produits/boite-a-clip-clip-n-store-sundis-17l-l-29-x-p-38-x-h-22-cm-72920393.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "📦 Boîte à clips 17 L"
+},
+"bac-manutention-26l": {
+"u": "https://www.leroymerlin.fr/produits/bac-de-manutention-noir-26l-h-26-x-l-43-x-p-34-cm-92110184.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🗃️ Bac de rangement noir 26 L"
+},
+"lot-bacs-sundis-50l": {
+"u": "https://www.leroymerlin.fr/produits/lot-de-3-bacs-sundis-polypropylene-transparent-50-l-l-57-7-x-h-31-x-p-38-cm-85585085.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "📦 Lot de 3 bacs transparents 50 L"
+},
+"etagere-spaceo": {
+"u": "https://www.leroymerlin.fr/produits/kit-etagere-acier-gris-enduit-de-resine-epoxy-spaceo-5-tablettes-l-100xh-196xp-50-85061893.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🗄️ Étagère acier 5 tablettes"
+},
+"support-tv": {
+"u": "https://www.leroymerlin.fr/produits/support-tv-orientable-inclinable-32-60-lexman-90023273.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "📺 Support TV orientable"
+},
+"roues-50mm-frein": {
+"u": "https://www.leroymerlin.fr/produits/4-roues-pivotante-sur-plaque-diam-50-mm-avec-frein-82629525.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🛞 Roulettes pivotantes avec frein"
+},
+"fermoir-hettich": {
+"u": "https://www.leroymerlin.fr/produits/fermoir-a-levier-acier-hettich-l-70-x-l-21-mm-70207172.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🔗 Fermoir à levier"
+},
+"dalle-anti-vibration": {
+"u": "https://www.leroymerlin.fr/produits/dalle-anti-vibration-nps-noir-ep-8-x-l-600-x-l-600-mm-93836204.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🧱 Dalle anti-vibration"
+},
+"poignees-sasha": {
+"u": "https://www.leroymerlin.fr/produits/4-poignees-de-meuble-sasha-ines-zamak-noir-peint-entraxe-96-mm-90496576.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "⚫ Poignées noires (entraxe 96 mm)"
+},
+"vernis-syntilor": {
+"u": "https://www.leroymerlin.fr/produits/vernis-pour-bois-exterieur-syntilor-incolore-mat-0-75-l-67748065.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🪵 Vernis bois incolore mat"
+},
+"ruban-led-cob": {
+"u": "https://www.leroymerlin.fr/produits/kit-ruban-led-cob-cutflexi-l-10-m-blanc-neutre-4000-kelvins-1000-lumens-metre-inspire-87978085.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "💡 Ruban LED COB 10 m"
+},
+"telecommande-ruban-led": {
+"u": "https://www.leroymerlin.fr/produits/telecommande-pour-ruban-led-cutflexi-4000-kelvins-ou-albo-inspire-87978159.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🎛️ Télécommande ruban LED"
+},
+"lampe-arquitecto": {
+"u": "https://www.leroymerlin.fr/produits/lampe-de-bureau-e27-arquitecto-fer-noir-h-60cm-inspire-84756111.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🔦 Lampe d'architecte noire"
+},
+"ampoule-edison": {
+"u": "https://www.leroymerlin.fr/produits/ampoule-led-decorative-edison-e27-1521lm-100w-blanc-chaud-xanlite-84751947.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "💡 Ampoule Edison ambrée"
+},
+"ampoule-globe": {
+"u": "https://www.leroymerlin.fr/produits/ampoule-led-decorative-globe-125mm-e27-1521lm-blanc-tres-chaud-xanlite-84751944.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🔆 Ampoule globe ambrée"
+},
+"cable-torsade": {
+"u": "https://www.leroymerlin.fr/produits/cable-torsade-tibelec-beige-3-m-98229187.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🧶 Câble textile torsadé"
+},
+"douille-e27": {
+"u": "https://www.leroymerlin.fr/produits/douille-e27-filetage-plastique-noir-hbf-44185960.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🔌 Douille E27 noire"
+},
+"fiche-male": {
+"u": "https://www.leroymerlin.fr/produits/fiche-electrique-male-2-poles-connexion-en-haut-6-a-noir-88253210.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🔌 Fiche électrique mâle"
 },
 "carreaux-metro": {
 "u": "https://www.leroymerlin.fr/produits/carrelage-mur-interieur-blanc-metro-l-7-5-x-l-15-cm-x-ep-7-mm-artens-70723646.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
@@ -74,6 +142,18 @@ window.LIENS={
 "robinet-lavabo-remix": {
 "u": "https://www.leroymerlin.fr/produits/robinet-de-lavabo-chrome-m-remix-sensea-88737174.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
 "n": "🚰 Robinet de lavabo"
+},
+"mastic-sikaseal-180-gachette": {
+"u": "https://www.awin1.com/cread.php?awinmid=17547&awinaffid=3130302&campaign=&clickref=mastic-sikaseal-180-gachette&clickref2=&clickref3=&clickref4=&clickref5=&clickref6=&ued=https%3A%2F%2Fwww.manomano.fr%2Fp%2Fsikaseal-180-mastic-joints-salle-de-bain-gachette-200-ml-couleur-transparent-66513144%3Fproduct_id%3D222372993&platform=pl",
+"n": "🧴 Silicone salle de bain à gâchette"
+},
+"bonde-clic-clac": {
+"u": "https://www.leroymerlin.fr/produits/bonde-clic-clac-avec-trop-plein-pour-lavabo-chrome-diam-66-mm-equation-91664568.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🚿 Bonde de lavabo clic-clac"
+},
+"siphon-lavabo": {
+"u": "https://www.leroymerlin.fr/produits/siphon-pour-lavabo-recycle-f1-1-4-et-1-1-2-d32mm-et-d40mm-valentin-96911743.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🔧 Siphon de lavabo"
 },
 "carrelage-bois": {
 "u": "https://www.leroymerlin.fr/produits/carrelage-sol-mur-interieur-effet-bois-marron-naturel-malte-l-19-8-x-l-119-8-cm-91656777.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
@@ -151,6 +231,38 @@ window.LIENS={
 "u": "https://tidd.ly/4zWuc44",
 "n": "🔥📲 Détecteurs de fumée connectés"
 },
+"primaire-prb": {
+"u": "https://www.leroymerlin.fr/produits/primaire-accrochage-sol-tous-supports-prb-12-l-82338775.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🧴 Primaire d'accrochage sol"
+},
+"ragreage-prb": {
+"u": "https://www.leroymerlin.fr/produits/ragreage-sol-autolissant-fibre-int-ext-prb-25-kg-66876173.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🪣 Ragréage autolissant fibré"
+},
+"rouleau-debulleur": {
+"u": "https://www.leroymerlin.fr/produits/rouleau-debulleur-beton-mondelin-23-cm-82159759.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🦔 Rouleau débulleur"
+},
+"perche-peinture": {
+"u": "https://www.leroymerlin.fr/produits/perche-peinture-112-200-cm-acier-82841004.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "📏 Perche télescopique"
+},
+"kit-peinture-lisse": {
+"u": "https://www.leroymerlin.fr/produits/kit-de-peinture-pour-peindre-une-surface-lisse-180mm-92079452.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🖌️ Kit rouleau et bac"
+},
+"seau-doseur": {
+"u": "https://www.leroymerlin.fr/produits/seau-doseur-plastique-16-6l-ocai-sans-couvercle-395-87064319.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🪣 Seau doseur gradué"
+},
+"couvercle-seau": {
+"u": "https://www.leroymerlin.fr/produits/couvercle-pour-seau-plastique-16-6l-ocai-0395co-87064312.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🧢 Couvercle de seau"
+},
+"boite-aux-lettres": {
+"u": "https://www.leroymerlin.fr/produits/boite-aux-lettres-compacte-1-porte-exterieur-renz-essentiel-acier-gris-brillant-85635375.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "📬 Boîte aux lettres"
+},
 "pistolet-peinture-wagner": {
 "u": "https://www.leroymerlin.fr/produits/pistolet-a-peinture-haute-pression-wagner-hea-control-pro-250r-550w-79541924.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
 "n": "🎨🔫 Pistolet à peinture haute pression"
@@ -158,6 +270,10 @@ window.LIENS={
 "ruban-led-chantier": {
 "u": "https://www.leroymerlin.fr/produits/kit-ruban-led-de-chantier-l-30m-4000-kelvins-800-lumens-m-ip44-kalgo-inspire-87978128.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
 "n": "💡 Ruban LED de chantier"
+},
+"lampe-frontale-lexman": {
+"u": "https://www.leroymerlin.fr/produits/lampe-frontale-rechargeable-150-lumens-lexman-96417729.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🔦 Lampe frontale rechargeable"
 },
 "pistolet-colle-ryobi": {
 "u": "https://www.leroymerlin.fr/produits/pistolet-a-cartouche-sans-fil-pvc-rglu18-ryobi-89508841.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
@@ -175,6 +291,18 @@ window.LIENS={
 "u": "https://www.awin1.com/cread.php?awinmid=17547&awinaffid=3130302&campaign=&clickref=laser-ryobi&clickref2=&clickref3=&clickref4=&clickref5=&clickref6=&ued=https%3A%2F%2Fwww.manomano.fr%2Fp%2Flaser-vert-360-ryobi-25m-de-porte-rb360gll-52000564&platform=pl",
 "n": "🟢 Laser vert 360°"
 },
+"telemetre-dexter": {
+"u": "https://www.leroymerlin.fr/produits/telemetre-laser-20m-dexter-90835584.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "📐 Télémètre laser 20 m"
+},
+"equerre-wolfcraft": {
+"u": "https://www.leroymerlin.fr/produits/equerre-multifonction-en-acier-wolfcraft-30-cm-66794553.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "📐 Équerre multifonction"
+},
+"compas-dexter": {
+"u": "https://www.leroymerlin.fr/produits/compas-dexter-16-cm-89124077.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "⭕ Compas de traçage"
+},
 "pack-ryobi-2-outils": {
 "u": "https://www.leroymerlin.fr/produits/pack-de-2-outils-sans-fils-ryobi-rck182-242s-2-batteries-2ah-4ah-88878255.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
 "n": "🔋 Pack perceuse + meuleuse Ryobi"
@@ -182,6 +310,10 @@ window.LIENS={
 "visseuse-chocs-ryobi": {
 "u": "https://www.awin1.com/cread.php?awinmid=17547&awinaffid=3130302&campaign=&clickref=visseuse-chocs-ryobi&clickref2=&clickref3=&clickref4=&clickref5=&clickref6=&ued=https%3A%2F%2Fwww.manomano.fr%2Fp%2Fryobi-85421052&platform=pl",
 "n": "🔩 Visseuse à chocs sans fil"
+},
+"coffret-embouts-dexter": {
+"u": "https://www.leroymerlin.fr/produits/coffret-21-embouts-porte-embout-magnetique-dexter-96939445.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🔩 Coffret 21 embouts"
 },
 "scie-onglet-dexter": {
 "u": "https://www.leroymerlin.fr/produits/scie-a-onglet-dexter-dx216-216-mm-1700-w-82371963.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
@@ -194,6 +326,10 @@ window.LIENS={
 "meuleuse-ryobi": {
 "u": "https://www.awin1.com/cread.php?awinmid=17547&awinaffid=3130302&campaign=&clickref=meuleuse-ryobi&clickref2=&clickref3=&clickref4=&clickref5=&clickref6=&ued=https%3A%2F%2Fwww.manomano.fr%2Fp%2Fryobi-meuleuse-dangle-600-w-115-mm-2583094%3Fmodel_id%3D2583094&platform=pl",
 "n": "⚙️ Meuleuse d'angle"
+},
+"boite-onglet-dexter": {
+"u": "https://www.leroymerlin.fr/produits/boite-a-onglet-avec-scie-l-350-mm-dexter-95595181.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "📐 Boîte à onglet avec scie"
 },
 "aspirateur-ryobi": {
 "u": "https://www.awin1.com/cread.php?awinmid=17547&awinaffid=3130302&campaign=&clickref=aspirateur-ryobi&clickref2=&clickref3=&clickref4=&clickref5=&clickref6=&ued=https%3A%2F%2Fwww.manomano.fr%2Fp%2Faspirateur-main-ryobi-rhv18-0-18v-one-plus-600ml-sans-batterie-ni-chargeur-62304899%3Fproduct_id%3D79070529&platform=pl",
@@ -211,6 +347,22 @@ window.LIENS={
 "u": "https://www.leroymerlin.fr/produits/maillet-de-caoutchouc-blanc-0-555-kg-dexter-81968470.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
 "n": "🔨 Maillet en caoutchouc blanc"
 },
+"peigne-dexter": {
+"u": "https://www.leroymerlin.fr/produits/peigne-dexter-85505753.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🪮 Peigne à colle 6 mm"
+},
+"trepan-18": {
+"u": "https://www.leroymerlin.fr/produits/trepan-diamant-carrelage-wolfcraft-diam-18-mm-68576781.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🕳️ Trépan carrelage Ø 18 mm"
+},
+"trepan-25": {
+"u": "https://www.leroymerlin.fr/produits/trepan-diamant-carrelage-wolfcraft-diam-25-mm-68576795.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🕳️ Trépan carrelage Ø 25 mm"
+},
+"trepan-35": {
+"u": "https://www.leroymerlin.fr/produits/trepan-diamant-carrelage-wolfcraft-diam-35-mm-68576802.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "🕳️ Trépan carrelage Ø 35 mm"
+},
 "redresseur-multicouche-d16": {
 "u": "https://www.leroymerlin.fr/produits/redresseur-manuel-pour-tube-multicouche-d16-86734620.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
 "n": "📏 Redresseur de tube multicouche Ø16"
@@ -218,9 +370,5 @@ window.LIENS={
 "redresseur-multicouche-d20": {
 "u": "https://www.leroymerlin.fr/produits/redresseur-manuel-pour-tube-multicouche-d20-86734623.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
 "n": "📏 Redresseur de tube multicouche Ø20"
-},
-"mastic-sikaseal-180-gachette": {
-"u": "https://www.awin1.com/cread.php?awinmid=17547&awinaffid=3130302&campaign=&clickref=mastic-sikaseal-180-gachette&clickref2=&clickref3=&clickref4=&clickref5=&clickref6=&ued=https%3A%2F%2Fwww.manomano.fr%2Fp%2Fsikaseal-180-mastic-joints-salle-de-bain-gachette-200-ml-couleur-transparent-66513144%3Fproduct_id%3D222372993&platform=pl",
-"n": "Mastic silicone salle de bain à gâchette transparent (SikaSeal-180)"
 }
 };

@@ -171,6 +171,10 @@ window.LIENS={
 "u": "https://www.leroymerlin.fr/produits/siphon-pour-lavabo-recycle-f1-1-4-et-1-1-2-d32mm-et-d40mm-valentin-96911743.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
 "n": "🔧 Siphon de lavabo"
 },
+"kit-impermeabilisation-axton": {
+"u": "https://www.leroymerlin.fr/produits/kit-impermeabilisation-mur-sol-et-angle-axton-7kg-88318426.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "💧 Kit d'étanchéité douche"
+},
 "carrelage-bois": {
 "u": "https://www.leroymerlin.fr/produits/carrelage-sol-mur-interieur-effet-bois-marron-naturel-malte-l-19-8-x-l-119-8-cm-91656777.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
 "n": "🪵 Carrelage imitation bois"

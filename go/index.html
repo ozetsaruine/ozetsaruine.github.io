@@ -5,22 +5,13 @@
 <script>window.goatcounter={no_onload:true}</script>
 <script data-goatcounter="https://ozetsaruine.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <script src="liens.js"></script>
-<style>
-:root{--jaune:#F5C400;--encre:#1C1D1F}
-body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:var(--jaune);color:var(--encre);font:16px/1.45 system-ui,sans-serif;text-align:center;padding:24px max(16px,env(safe-area-inset-right,0px)) 24px max(16px,env(safe-area-inset-left,0px));box-sizing:border-box}
-main{max-width:420px;display:flex;flex-direction:column;gap:16px;align-items:center}
-b{font-size:24px;line-height:1.2}
-a.btn{display:inline-block;background:var(--encre);color:var(--jaune);text-decoration:none;font-weight:600;padding:14px 22px;border-radius:12px}
-</style></head>
-<body><main><div style="font-size:44px" aria-hidden="true">🏚️</div><b id="t">Oz (et sa RUIN'E)</b><span id="m">Ouverture du produit…</span><a class="btn" id="b" href="https://ozetsaruine.github.io/">Voir le produit</a></main>
+<style>html,body{margin:0;background:#fff}</style></head>
+<body>
 <script>
 (function(){
   var q=new URLSearchParams(location.search),id=q.get("p")||"",src=q.get("s")||"",L=window.LIENS||{},e=L[id];
-  var b=document.getElementById("b");
-  if(!e){document.getElementById("m").textContent="Ce produit n'existe plus, retrouve toutes les références sur mon site.";b.textContent="Voir le site";return}
+  if(!e){location.replace("https://ozetsaruine.github.io/");return}   /* produit inconnu : le site */
   var url=e.u,ua=navigator.userAgent||"";
-  document.getElementById("t").textContent=e.n.replace(/^[^A-Za-zÀ-ÿ0-9]+/,"");
-  b.href=url;
   var app=/Instagram|FBAN|FBAV|FB_IAB/i.test(ua),android=/Android/i.test(ua),ios=/iPhone|iPad|iPod/i.test(ua);
   var ref=src||(app?(/Instagram/i.test(ua)?"instagram":"facebook"):(document.referrer||""));
   (function compte(n){var g=window.goatcounter;if(g&&g.count){g.count({path:"go-"+id,title:"Lien court : "+e.n,referrer:ref});g.count({path:"item-"+id,title:e.n,event:true})}else if(n<15)setTimeout(function(){compte(n+1)},200)})(0);
@@ -29,7 +20,6 @@ a.btn{display:inline-block;background:var(--encre);color:var(--jaune);text-decor
     else if(app&&ios){location.href="x-safari-"+url}
     else location.replace(url);
   }
-  if(app){b.onclick=function(ev){ev.preventDefault();go()};document.getElementById("m").textContent="Le produit s'ouvre dans ton navigateur 👉"}
   setTimeout(go,350);
 })();
 </script></body></html>

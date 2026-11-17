@@ -40,7 +40,7 @@ window.LIENS={
 "n": "🧱 Carrelage métro blanc"
 },
 "joints-terracotta": {
-"u": "https://www.leroymerlin.fr/produits/joint-de-carrelage-5kg-keracolor-ff-mapei-145-terre-de-sienne-82374307.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"u": "https://www.awin1.com/cread.php?awinmid=17547&awinaffid=3130302&campaign=&clickref=joints-terracotta&clickref2=&clickref3=&clickref4=&clickref5=&clickref6=&ued=https%3A%2F%2Fwww.manomano.fr%2Fp%2Fmortier-de-jointoiement-mapei-ultracolor-plus-100-sac-de-2kg-50069337%3Fmodel_id%3D72384258&platform=pl",
 "n": "🟤 Joint de carrelage terracotta"
 },
 "peinture-popcorn-sdb": {

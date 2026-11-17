@@ -14,7 +14,7 @@
   "taille_ko": 31,
   "page": "https://www.leroymerlin.fr/produits/pistolet-a-peinture-haute-pression-wagner-hea-control-pro-250r-550w-79541924.html"
  },
- "_le": "2026-11-17T19:33:23+00:00",
+ "_le": "2026-11-17T19:57:32+00:00",
  "chaux-hydraulique-prb": {
   "ok": true,
   "taille_ko": 46,
@@ -547,5 +547,10 @@
  "masque-respiratoire-integral": {
   "ok": false,
   "erreur": "HTTPError: HTTP Error 403: Forbidden"
+ },
+ "kit-impermeabilisation-axton": {
+  "ok": true,
+  "taille_ko": 26,
+  "page": "https://www.leroymerlin.fr/produits/kit-impermeabilisation-mur-sol-et-angle-axton-7kg-88318426.html"
  }
 }

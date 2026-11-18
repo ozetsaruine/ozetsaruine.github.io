@@ -178,11 +178,11 @@
    }
   },
   "2026-11-17": {
-   "v": 340,
-   "p": 340,
+   "v": 344,
+   "p": 344,
    "c": {
     "autre-page-outils": 10,
-    "item-mastic-sikaseal-180-gachette": 39,
+    "item-mastic-sikaseal-180-gachette": 41,
     "item-plan-travail-chene": 10,
     "item-facades-cuisine-ryk": 2,
     "item-pistolet-peinture-wagner": 4,
@@ -241,9 +241,20 @@
    },
    "s": {
     "Accès direct": 142,
-    "Instagram": 119,
+    "Instagram": 133,
     "Facebook": 35,
     "bing.com": 1
+   }
+  },
+  "2026-11-18": {
+   "v": 24,
+   "p": 24,
+   "c": {
+    "item-mastic-sikaseal-180-gachette": 12
+   },
+   "s": {
+    "Instagram": 10,
+    "Facebook": 4
    }
   }
  }

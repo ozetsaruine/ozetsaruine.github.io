@@ -18,6 +18,7 @@
   function go(){
     if(app&&android){var u=new URL(url);location.href="intent://"+u.host+u.pathname+u.search+u.hash+"#Intent;scheme=https;package=com.android.chrome;S.browser_fallback_url="+encodeURIComponent(url)+";end"}
     else if(app&&ios){location.href="x-safari-"+url}
+    else if(android&&!/; wv\)|TikTok|musical_ly|Bytedance/i.test(ua)){var v=new URL(url);location.href="intent://"+v.host+v.pathname+v.search+v.hash+"#Intent;scheme=https;package=fr.ozetsaruine.navigateur;S.browser_fallback_url="+encodeURIComponent(url)+";end"}   /* navigateur Android : empêche l'appli du marchand de s'ouvrir */
     else location.replace(url);
   }
   setTimeout(go,350);

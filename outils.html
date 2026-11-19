@@ -1,22 +1,31 @@
 <!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <script>
-/* Site ouvert dans Insta / Facebook : le site reste dans l'appli, mais les liens affiliés
-   s'ouvrent dans le vrai navigateur du téléphone (Chrome / Safari), pas dans Insta ni dans l'appli du marchand */
+/* Liens affiliés sur téléphone :
+   - site ouvert dans Insta / Facebook : le site reste dans l'appli, mais les liens affiliés s'ouvrent dans le vrai navigateur (Chrome / Safari) ;
+   - site ouvert dans un navigateur Android : on empêche l'appli du marchand (Leroy Merlin, ManoMano…) de s'ouvrir à la place de la page,
+     car dans l'appli le clic d'affiliation n'est pas compté. Astuce : on demande à Android une appli qui n'existe pas, il retombe alors
+     sur l'adresse de secours, chargée directement dans le navigateur. */
 (function(){
   var ua=navigator.userAgent||"";
-  if(!/Instagram|FBAN|FBAV|FB_IAB/i.test(ua))return;   /* pas TikTok : il bloque l'ouverture du navigateur */
   var android=/Android/i.test(ua),ios=/iPhone|iPad|iPod/i.test(ua);
   if(!android&&!ios)return;
-  function externe(url){
+  var appMeta=/Instagram|FBAN|FBAV|FB_IAB/i.test(ua);   /* pas TikTok : il bloque l'ouverture du navigateur */
+  var navAndroid=android&&!appMeta&&!/; wv\)|TikTok|musical_ly|Bytedance/i.test(ua);   /* vrai navigateur Android, pas une appli */
+  if(!appMeta&&!navAndroid)return;
+  function intent(url,pkg){
     var u=new URL(url,location.href),sans=u.host+u.pathname+u.search+u.hash;
-    if(android)location.href="intent://"+sans+"#Intent;scheme="+u.protocol.replace(":","")+";package=com.android.chrome;S.browser_fallback_url="+encodeURIComponent(u.href)+";end";
-    else location.href="x-safari-"+u.href;
+    return "intent://"+sans+"#Intent;scheme="+u.protocol.replace(":","")+";package="+pkg+";S.browser_fallback_url="+encodeURIComponent(u.href)+";end";
+  }
+  function externe(url){
+    if(android)location.href=intent(url,"com.android.chrome");
+    else location.href="x-safari-"+new URL(url,location.href).href;
   }
   document.addEventListener("click",function(e){
     var a=e.target.closest&&e.target.closest('a[rel~="sponsored"]');   /* seulement les liens affiliés */
     if(!a||!a.href||a.getAttribute("href")==="#")return;
     e.preventDefault();                     /* le comptage GoatCounter du clic se fait quand même */
     var url=a.href;
+    if(navAndroid){setTimeout(function(){location.href=intent(url,"fr.ozetsaruine.navigateur")},120);return}
     /* mesure : la personne accepte-t-elle de quitter l'appli ? (événements GoatCounter nav-<os>-tente / -accepte / -refuse) */
     var os=android?"android":"ios",fait=false;
     function ev(n){var g=window.goatcounter;if(g&&g.count)g.count({path:"nav-"+os+"-"+n,title:"Ouverture navigateur : "+n,event:true})}

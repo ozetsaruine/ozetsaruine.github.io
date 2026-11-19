@@ -12,7 +12,11 @@ small{display:block;font-weight:400;margin-top:4px}
 <h1>Test : ouvrir Leroy Merlin dans Chrome</h1>
 <p>À ouvrir dans Chrome (pas dans Insta), avec l'appli Leroy Merlin installée. Teste chaque bouton, reviens ici, et note ce qui s'ouvre.</p>
 <a id="a" href="#">A · Forcer Chrome<small>Même méthode que depuis Insta</small></a>
-<a id="b" href="go/?p=mastic-sikaseal-180-gachette&s=test">B · Passer par le lien court<small>Redirection après 0,35 s</small></a>
+<a href="test-go.html?d=0">B1 · Page blanche puis redirection après 0 s<small>Nouvelle page de ton site, puis Leroy Merlin</small></a>
+<a href="test-go.html?d=350">B2 · Page blanche puis redirection après 0,35 s<small>Nouvelle page de ton site, puis Leroy Merlin</small></a>
+<a href="test-go.html?d=1000">B3 · Page blanche puis redirection après 1 s<small>Nouvelle page de ton site, puis Leroy Merlin</small></a>
+<a href="test-go.html?d=2000">B4 · Page blanche puis redirection après 2 s<small>Nouvelle page de ton site, puis Leroy Merlin</small></a>
+<a href="test-go.html?d=3000">B5 · Page blanche puis redirection après 3 s<small>Nouvelle page de ton site, puis Leroy Merlin</small></a>
 <a id="c" href="#">C · Redirection après 6 s<small>Attends 6 secondes sur la page blanche</small></a>
 <a href="https://www.leroymerlin.fr/produits/mastic-silicone-sika-sikaseal-180-salle-de-bain-carrelage-gachette-blanc-200ml-88779260.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666" rel="sponsored noopener">D · Lien normal (témoin)<small>Comme sur le site aujourd'hui</small></a>
 <script>

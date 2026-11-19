@@ -7,3 +7,4 @@ Disallow: /images/produits/infos/
 
 Sitemap: https://ozetsaruine.github.io/sitemap.xml
 Disallow: /test-nav.html
+Disallow: /test-go.html

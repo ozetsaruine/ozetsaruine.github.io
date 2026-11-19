@@ -17,12 +17,16 @@ small{display:block;font-weight:400;margin-top:4px}
 <a href="test-go.html?d=1000">B3 · Page blanche puis redirection après 1 s<small>Nouvelle page de ton site, puis Leroy Merlin</small></a>
 <a href="test-go.html?d=2000">B4 · Page blanche puis redirection après 2 s<small>Nouvelle page de ton site, puis Leroy Merlin</small></a>
 <a href="test-go.html?d=3000">B5 · Page blanche puis redirection après 3 s<small>Nouvelle page de ton site, puis Leroy Merlin</small></a>
+<a href="test-go.html?d=5200">B6 · Page blanche puis redirection après 5,2 s<small>Pour trouver le délai minimum</small></a>
+<a id="e" href="#">E · Astuce « appli introuvable »<small>Android ne trouve pas l'appli demandée et retombe sur le navigateur</small></a>
 <a id="c" href="#">C · Redirection après 6 s<small>Attends 6 secondes sur la page blanche</small></a>
 <a href="https://www.leroymerlin.fr/produits/mastic-silicone-sika-sikaseal-180-salle-de-bain-carrelage-gachette-blanc-200ml-88779260.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666" rel="sponsored noopener">D · Lien normal (témoin)<small>Comme sur le site aujourd'hui</small></a>
 <script>
 var url="https://www.leroymerlin.fr/produits/mastic-silicone-sika-sikaseal-180-salle-de-bain-carrelage-gachette-blanc-200ml-88779260.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666";
 document.getElementById("a").addEventListener("click",function(e){e.preventDefault();var u=new URL(url);
   location.href="intent://"+u.host+u.pathname+u.search+"#Intent;scheme=https;package=com.android.chrome;S.browser_fallback_url="+encodeURIComponent(url)+";end"});
+document.getElementById("e").addEventListener("click",function(e){e.preventDefault();var u=new URL(url);
+  location.href="intent://"+u.host+u.pathname+u.search+"#Intent;scheme=https;package=fr.ozetsaruine.inexistant;S.browser_fallback_url="+encodeURIComponent(url)+";end"});
 document.getElementById("c").addEventListener("click",function(e){e.preventDefault();
   document.body.innerHTML="<p style='padding:24px'>Ouverture du produit dans 6 s…</p>";setTimeout(function(){location.replace(url)},6000)});
 </script>

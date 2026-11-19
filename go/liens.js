@@ -398,5 +398,9 @@ window.LIENS={
 "redresseur-multicouche-d20": {
 "u": "https://www.leroymerlin.fr/produits/redresseur-manuel-pour-tube-multicouche-d20-86734623.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
 "n": "📏 Redresseur de tube multicouche Ø20"
+},
+"pack-ryobi-6-outils": {
+"u": "https://www.leroymerlin.fr/produits/pack-de-6-outils-sans-fils-ryobi-r18ck6f-2c40s-2-batteries-71032443.html?at_medium=Affiliation&at_source=affilae&at_campaign=oz&ae=1666",
+"n": "Pack de 6 outils sans fil Ryobi R18CK6F (2 batteries)"
 }
 };

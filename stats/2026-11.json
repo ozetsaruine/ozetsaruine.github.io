@@ -350,14 +350,14 @@
    }
   },
   "2026-11-20": {
-   "v": 35,
-   "p": 35,
+   "v": 39,
+   "p": 39,
    "c": {
-    "item-evier-multifonction": 6,
+    "item-evier-multifonction": 7,
     "nav-android-tente": 3,
     "nav-android-accepte": 3,
-    "nav-ios-tente": 3,
-    "nav-ios-accepte": 3,
+    "nav-ios-tente": 4,
+    "nav-ios-accepte": 4,
     "nav-ios-refuse": 1,
     "item-plan-travail-chene": 1,
     "item-robinet-cuisine-douchette": 2,
@@ -365,8 +365,8 @@
     "item-peinture-terracotta": 1
    },
    "s": {
-    "Facebook": 8,
-    "Accès direct": 4,
+    "Facebook": 11,
+    "Accès direct": 5,
     "Instagram": 2
    }
   }

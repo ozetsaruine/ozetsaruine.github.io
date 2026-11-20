@@ -350,12 +350,12 @@
    }
   },
   "2026-11-20": {
-   "v": 98,
-   "p": 98,
+   "v": 104,
+   "p": 104,
    "c": {
-    "item-evier-multifonction": 18,
-    "nav-android-tente": 7,
-    "nav-android-accepte": 7,
+    "item-evier-multifonction": 19,
+    "nav-android-tente": 8,
+    "nav-android-accepte": 8,
     "nav-ios-tente": 11,
     "nav-ios-accepte": 10,
     "autre-page-outils": 1,
@@ -369,9 +369,9 @@
     "item-poignees-cuisine-ryk": 1
    },
    "s": {
-    "Instagram": 31,
-    "Accès direct": 27,
-    "Facebook": 18
+    "Instagram": 32,
+    "Accès direct": 28,
+    "Facebook": 22
    }
   }
  }

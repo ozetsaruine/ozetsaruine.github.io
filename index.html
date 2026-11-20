@@ -285,6 +285,87 @@ footer{text-align:center;color:var(--gris);font-size:15px;padding-block:56px cal
 footer p{margin:0 auto 18px;max-width:52ch}
 </style>
 
+<!-- ============ PAGE DE LIENS (style Linktree) ============
+     S'affiche à chaque arrivée sur le site (quelle que soit la source).
+     Le site classique s'ouvre avec le lien « Mon site » (adresse ?site), ou directement avec une ancre (#projets…).
+     Liens des marques / partenaires : toujours traqués (data-goatcounter-click="lt-<id>") et rattachés à leur collab
+     (data-collab = id de la collab dans le tableau « Suivi des collabs »). Les liens d'Oz (site, réseaux) restent en « autre-… ». -->
+<script>(function(){var q=location.search,h=location.hash;if(/[?&]site\b/.test(q)||(h&&h!=="#"))document.documentElement.classList.add("lt-off");else document.documentElement.classList.add("lt-on")})();</script>
+<style>
+html.lt-on body{overflow:hidden}
+html.lt-off #lt{display:none}
+#lt{position:fixed;inset:0;z-index:9999;overflow-y:auto;-webkit-overflow-scrolling:touch;
+  background:linear-gradient(180deg,#F5BE00 0%,#F2B100 55%,#E9A200 100%);color:#1C1D1F;font-family:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+#lt .lt-col{max-width:580px;margin:0 auto;padding:max(28px,env(safe-area-inset-top,0px)) 16px max(32px,env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;align-items:center;min-height:100%}
+#lt .lt-top{width:100%;display:flex;justify-content:flex-end;margin-bottom:6px}
+#lt .lt-rond{width:42px;height:42px;border-radius:50%;border:0;background:rgba(255,255,255,.55);display:grid;place-items:center;cursor:pointer;color:#1C1D1F;backdrop-filter:blur(6px)}
+#lt .lt-rond:hover{background:rgba(255,255,255,.8)}
+#lt .lt-avatar{width:96px;height:96px;border-radius:50%;object-fit:cover;background:#FAF9F5;box-shadow:0 0 0 3px rgba(255,255,255,.7)}
+#lt h1{font-family:"DM Sans",system-ui,sans-serif;font-weight:700;font-size:20px;margin:14px 0 2px;text-align:center;letter-spacing:0}
+#lt .lt-bio{margin:4px 0 0;font-size:15px;text-align:center;max-width:420px;line-height:1.45}
+#lt .lt-socials{display:flex;gap:14px;margin:16px 0 26px;padding:0;list-style:none}
+#lt .lt-socials a{display:grid;place-items:center;width:34px;height:34px;color:#1C1D1F;text-decoration:none;border-radius:50%}
+#lt .lt-socials a:hover{transform:scale(1.08)}
+#lt .lt-liens li{position:relative}
+#lt .lt-liens{width:100%;display:flex;flex-direction:column;gap:16px;list-style:none;margin:0;padding:0}
+#lt .lt-lien{position:relative;display:flex;align-items:center;min-height:62px;width:100%;padding:8px 56px;border-radius:999px;
+  background:#FAF9F5;color:#1C1D1F;text-decoration:none;font-weight:600;font-size:16px;line-height:1.3;text-align:center;justify-content:center;
+  box-shadow:0 2px 0 rgba(0,0,0,.08),0 6px 18px rgba(120,80,0,.18);transition:transform .15s ease,box-shadow .15s ease}
+#lt .lt-lien:hover{transform:scale(1.02);box-shadow:0 2px 0 rgba(0,0,0,.08),0 10px 24px rgba(120,80,0,.24)}
+#lt .lt-lien:active{transform:scale(.99)}
+#lt .lt-vignette{position:absolute;left:8px;top:50%;transform:translateY(-50%);width:46px;height:46px;border-radius:50%;object-fit:cover;display:grid;place-items:center;font-size:24px;background:#FBEFB4}
+#lt .lt-plus{position:absolute;right:8px;top:50%;transform:translateY(-50%);width:40px;height:40px;border-radius:50%;border:0;background:transparent;cursor:pointer;display:grid;place-items:center;color:#1C1D1F}
+#lt .lt-plus:hover{background:rgba(0,0,0,.06)}
+#lt .lt-pied{margin-top:auto;padding-top:40px;font-size:13px;opacity:.75;text-align:center}
+#lt .lt-toast{position:fixed;left:50%;bottom:max(24px,env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:#1C1D1F;color:#fff;padding:10px 16px;border-radius:999px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none}
+#lt .lt-toast.on{opacity:1}
+@media (prefers-reduced-motion:reduce){#lt .lt-lien,#lt .lt-socials a{transition:none}}
+</style>
+<div id="lt" role="dialog" aria-label="Liens d'Oz (et sa RUIN'E)">
+  <div class="lt-col">
+    <div class="lt-top"><button type="button" class="lt-rond" data-partage="https://ozetsaruine.github.io/" aria-label="Partager cette page"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg></button></div>
+    <img class="lt-avatar" src="images/oz.jpg" alt="Oz" width="96" height="96">
+    <h1>@ozir_off</h1>
+    <p class="lt-bio">Oz (et sa RUIN'E) · Je rénove seul une RUIN'E dans le Nord, et je partage tout le chantier ici 🏚️ → 🏡</p>
+    <ul class="lt-socials">
+      <li><a href="https://www.instagram.com/ozir_off/" target="_blank" rel="noopener" aria-label="Instagram" data-goatcounter-click="autre-lt-instagram"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a></li>
+      <li><a href="https://www.tiktok.com/@ozir_off" target="_blank" rel="noopener" aria-label="TikTok" data-goatcounter-click="autre-lt-tiktok"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.5 2h-3.3v13.2a2.9 2.9 0 1 1-2.9-2.9c.3 0 .6 0 .9.1V9a6.2 6.2 0 1 0 5.3 6.1V8.6a7.6 7.6 0 0 0 4.5 1.4V6.7a4.5 4.5 0 0 1-4.5-4.7z"/></svg></a></li>
+      <li><a href="https://www.youtube.com/@ozir_off" target="_blank" rel="noopener" aria-label="YouTube" data-goatcounter-click="autre-lt-youtube"><svg width="27" height="27" viewBox="0 0 24 24" aria-hidden="true"><rect x="1.5" y="5" width="21" height="14" rx="4" fill="currentColor"/><path d="M10 9l5 3-5 3z" fill="#F5BE00"/></svg></a></li>
+      <li><a href="https://www.facebook.com/profile.php?id=61568047780212" target="_blank" rel="noopener" aria-label="Facebook" data-goatcounter-click="autre-lt-facebook"><svg width="25" height="25" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10.5" fill="currentColor"/><path d="M13.3 20v-6.3h2.1l.3-2.5h-2.4V9.7c0-.7.2-1.2 1.2-1.2h1.3V6.3a17 17 0 0 0-1.9-.1c-1.9 0-3.1 1.1-3.1 3.2v1.8H8.7v2.5h2.1V20z" fill="#F5BE00"/></svg></a></li>
+    </ul>
+    <ul class="lt-liens">
+      <!-- Lien partenaire : Probreeze (collab c-probreeze) -->
+      <li><a class="lt-lien" href="https://upf.ai/hr79jduy" target="_blank" rel="sponsored noopener" data-collab="c-probreeze" data-goatcounter-click="lt-probreeze-deshumidificateurs"><span class="lt-vignette" aria-hidden="true">💧</span>Les déshumidificateurs probreeze&nbsp;: -12% en passant par ce lien</a><button type="button" class="lt-plus" data-partage="https://upf.ai/hr79jduy" aria-label="Partager ce lien"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="5" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="12" cy="19" r="2"/></svg></button></li>
+      <!-- Lien d'Oz : le site classique -->
+      <li><a class="lt-lien" href="?site" id="lt-site" data-goatcounter-click="autre-lt-site"><img class="lt-vignette" src="images/oz.jpg" alt="" width="46" height="46">Mon site&nbsp;: tous les projets et les références de la RUIN'E</a><button type="button" class="lt-plus" data-partage="https://ozetsaruine.github.io/?site" aria-label="Partager ce lien"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="5" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="12" cy="19" r="2"/></svg></button></li>
+    </ul>
+    <p class="lt-pied">Oz (et sa RUIN'E) · Contact : <a href="mailto:ozetsaruine@gmail.com" style="color:inherit">ozetsaruine@gmail.com</a></p>
+  </div>
+  <div class="lt-toast" role="status" aria-live="polite"></div>
+</div>
+<script>
+(function(){
+  var html=document.documentElement,lt=document.getElementById("lt");
+  function montrer(on){html.classList.toggle("lt-on",on);html.classList.toggle("lt-off",!on);if(!on)window.scrollTo(0,0)}
+  /* « Mon site » : on ouvre le site classique sans recharger (l'adresse devient ?site, le bouton retour revient aux liens) */
+  document.getElementById("lt-site").addEventListener("click",function(e){
+    if(e.metaKey||e.ctrlKey||e.shiftKey)return;e.preventDefault();
+    history.pushState({site:1},"","?site");montrer(false);
+  });
+  window.addEventListener("popstate",function(){var s=/[?&]site\b/.test(location.search)||(location.hash&&location.hash!=="#");montrer(!s)});
+  /* Partage : menu natif du téléphone, sinon copie du lien */
+  var t=lt.querySelector(".lt-toast"),tm;
+  function toast(m){t.textContent=m;t.classList.add("on");clearTimeout(tm);tm=setTimeout(function(){t.classList.remove("on")},2200)}
+  lt.addEventListener("click",function(e){
+    var b=e.target.closest("[data-partage]");if(!b)return;e.preventDefault();e.stopPropagation();
+    var u=b.getAttribute("data-partage");
+    if(navigator.share){navigator.share({url:u}).catch(function(){});return}
+    (navigator.clipboard?navigator.clipboard.writeText(u):Promise.reject()).then(function(){toast("Lien copié")},function(){prompt("Copie ce lien :",u)});
+  });
+})();
+</script>
+<!-- ============ FIN PAGE DE LIENS ============ -->
+
 
 <nav class="nav" aria-label="Navigation principale">
   <div class="wrap">

@@ -350,17 +350,17 @@
    }
   },
   "2026-11-20": {
-   "v": 80,
-   "p": 80,
+   "v": 98,
+   "p": 98,
    "c": {
-    "item-evier-multifonction": 14,
-    "nav-android-tente": 4,
-    "nav-android-accepte": 4,
-    "nav-ios-tente": 10,
-    "nav-ios-accepte": 9,
+    "item-evier-multifonction": 18,
+    "nav-android-tente": 7,
+    "nav-android-accepte": 7,
+    "nav-ios-tente": 11,
+    "nav-ios-accepte": 10,
     "autre-page-outils": 1,
     "nav-ios-refuse": 5,
-    "item-robinet-cuisine-douchette": 6,
+    "item-robinet-cuisine-douchette": 7,
     "item-plan-travail-chene": 3,
     "item-facades-cuisine-ryk": 3,
     "item-rangements-vis": 1,
@@ -369,8 +369,8 @@
     "item-poignees-cuisine-ryk": 1
    },
    "s": {
-    "Accès direct": 22,
-    "Instagram": 18,
+    "Instagram": 31,
+    "Accès direct": 27,
     "Facebook": 18
    }
   }

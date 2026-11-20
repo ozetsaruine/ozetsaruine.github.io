@@ -350,12 +350,16 @@ html.lt-off #lt{display:none}
   /* Liens à durée limitée : data-fin="AAAA-MM-JJ" = dernier jour affiché (heure de Paris) */
   var auj=new Intl.DateTimeFormat("fr-CA",{timeZone:"Europe/Paris"}).format(new Date());
   lt.querySelectorAll("[data-fin]").forEach(function(li){if(li.getAttribute("data-fin")<auj)li.remove()});
+  /* Plus aucun lien de marque en ligne (il ne reste que « Mon site ») : on va directement sur le site.
+     La page de liens revient toute seule dès qu'un nouveau lien de marque est ajouté. */
+  var actifs=lt.querySelectorAll(".lt-liens a.lt-lien:not(#lt-site)").length;
+  if(!actifs){html.classList.remove("lt-on");html.classList.add("lt-off");}
   /* « Mon site » : on ouvre le site classique sans recharger (l'adresse devient ?site, le bouton retour revient aux liens) */
   document.getElementById("lt-site").addEventListener("click",function(e){
     if(e.metaKey||e.ctrlKey||e.shiftKey)return;e.preventDefault();
     history.pushState({site:1},"","?site");montrer(false);
   });
-  window.addEventListener("popstate",function(){var s=/[?&]site\b/.test(location.search)||(location.hash&&location.hash!=="#");montrer(!s)});
+  window.addEventListener("popstate",function(){var s=!actifs||/[?&]site\b/.test(location.search)||(location.hash&&location.hash!=="#");montrer(!s)});
   /* Partage : menu natif du téléphone, sinon copie du lien */
   var t=lt.querySelector(".lt-toast"),tm;
   function toast(m){t.textContent=m;t.classList.add("on");clearTimeout(tm);tm=setTimeout(function(){t.classList.remove("on")},2200)}

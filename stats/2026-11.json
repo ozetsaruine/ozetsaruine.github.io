@@ -350,12 +350,12 @@
    }
   },
   "2026-11-20": {
-   "v": 28,
-   "p": 28,
+   "v": 33,
+   "p": 33,
    "c": {
-    "item-evier-multifonction": 5,
-    "nav-android-tente": 2,
-    "nav-android-accepte": 2,
+    "item-evier-multifonction": 6,
+    "nav-android-tente": 3,
+    "nav-android-accepte": 3,
     "nav-ios-tente": 3,
     "nav-ios-accepte": 3,
     "nav-ios-refuse": 1,
@@ -365,9 +365,9 @@
     "item-peinture-terracotta": 1
    },
    "s": {
-    "Facebook": 4,
-    "Accès direct": 2,
-    "Instagram": 1
+    "Facebook": 7,
+    "Accès direct": 3,
+    "Instagram": 2
    }
   }
  }

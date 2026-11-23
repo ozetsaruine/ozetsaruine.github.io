@@ -402,8 +402,8 @@
    }
   },
   "2026-11-22": {
-   "v": 23,
-   "p": 23,
+   "v": 26,
+   "p": 26,
    "c": {
     "item-evier-multifonction": 1,
     "nav-android-tente": 1,
@@ -411,17 +411,23 @@
     "autre-page-outils": 2,
     "item-plan-travail-chene": 1,
     "item-pistolet-peinture-wagner": 2,
+    "autre-lt-site": 5,
     "autre-video-01": 1,
-    "autre-lt-site": 4,
     "item-chaux-hydraulique-prb": 1,
     "item-batteries-chargeur-ryobi": 1,
     "autre-video-02": 1
    },
    "s": {
-    "Accès direct": 14,
+    "Accès direct": 15,
     "YouTube": 3,
-    "Instagram": 1
+    "Instagram": 2
    }
+  },
+  "2026-11-23": {
+   "v": 0,
+   "p": 0,
+   "c": {},
+   "s": {}
   }
  }
 }

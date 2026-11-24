@@ -122,13 +122,13 @@
     "item-peinture-terracotta": 7,
     "item-tableau-electrique": 8,
     "item-bacs-rangement-30l": 7,
+    "item-miroir-lumineux": 9,
     "item-pistolet-colle-ryobi": 7,
     "item-peinture-popcorn-cuisine": 4,
     "item-poignees-cuisine-ryk": 5,
     "item-laser-ryobi": 5,
     "item-pistolet-mastic-ryobi": 9,
     "item-carrelage-bois": 8,
-    "item-miroir-lumineux": 9,
     "autre-video-01": 5,
     "item-detecteur-fumee-xsense": 3,
     "item-malles-sundis": 4,
@@ -203,13 +203,13 @@
     "item-peinture-terracotta": 3,
     "item-tableau-electrique": 4,
     "item-bacs-rangement-30l": 6,
+    "item-miroir-lumineux": 1,
     "item-pistolet-colle-ryobi": 4,
     "item-peinture-popcorn-cuisine": 5,
     "item-poignees-cuisine-ryk": 1,
     "item-laser-ryobi": 2,
     "item-pistolet-mastic-ryobi": 1,
     "item-carrelage-bois": 3,
-    "item-miroir-lumineux": 1,
     "autre-video-01": 3,
     "item-detecteur-fumee-xsense": 2,
     "item-malles-sundis": 2,
@@ -369,8 +369,8 @@
     "item-joints-terracotta": 1,
     "item-casier-10-tiroirs": 1,
     "item-peinture-terracotta": 1,
-    "item-poignees-cuisine-ryk": 1,
     "autre-lt-site": 3,
+    "item-poignees-cuisine-ryk": 1,
     "item-detecteur-fumee-xsense": 1,
     "autre-video-02": 1,
     "lt-probreeze-deshumidificateurs": 3,
@@ -424,10 +424,26 @@
    }
   },
   "2026-11-23": {
-   "v": 0,
-   "p": 0,
-   "c": {},
-   "s": {}
+   "v": 6,
+   "p": 6,
+   "c": {
+    "item-miroir-lumineux": 2,
+    "autre-lt-site": 1
+   },
+   "s": {
+    "Accès direct": 4,
+    "Instagram": 2
+   }
+  },
+  "2026-11-24": {
+   "v": 2,
+   "p": 2,
+   "c": {
+    "autre-lt-site": 1
+   },
+   "s": {
+    "Accès direct": 2
+   }
   }
  }
 }

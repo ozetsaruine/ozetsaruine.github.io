@@ -304,11 +304,11 @@
     "item-pack-ryobi-2-outils": 1,
     "item-isolant-isocoton": 1,
     "item-batteries-chargeur-ryobi": 1,
+    "item-lampe-arquitecto": 3,
     "item-etagere-spaceo": 4,
     "item-support-tv": 4,
     "item-plaque-chasse-wc": 1,
     "item-rustol-deco-mat": 1,
-    "item-lampe-arquitecto": 3,
     "item-compas-dexter": 3,
     "item-pack-ryobi-6-outils": 1,
     "item-rustol-92-biosource": 1,
@@ -454,10 +454,17 @@
    }
   },
   "2026-11-25": {
-   "v": 0,
-   "p": 0,
-   "c": {},
-   "s": {}
+   "v": 5,
+   "p": 5,
+   "c": {
+    "autre-lt-site": 1,
+    "item-lampe-arquitecto": 1,
+    "autre-lt-instagram": 1
+   },
+   "s": {
+    "Accès direct": 4,
+    "YouTube": 1
+   }
   }
  }
 }

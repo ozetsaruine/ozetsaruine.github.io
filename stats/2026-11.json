@@ -304,10 +304,10 @@
     "item-pack-ryobi-2-outils": 1,
     "item-isolant-isocoton": 1,
     "item-etagere-spaceo": 4,
+    "item-pack-ryobi-6-outils": 1,
     "item-batteries-chargeur-ryobi": 1,
     "item-rustol-deco-mat": 1,
     "item-lampe-arquitecto": 3,
-    "item-pack-ryobi-6-outils": 1,
     "item-support-tv": 4,
     "item-rustol-92-biosource": 1,
     "item-plaque-chasse-wc": 1,
@@ -464,9 +464,9 @@
     "item-casier-10-tiroirs": 1,
     "item-malles-sundis": 1,
     "item-etagere-spaceo": 1,
+    "item-pack-ryobi-6-outils": 1,
     "item-rustol-deco-mat": 1,
     "item-lampe-arquitecto": 1,
-    "item-pack-ryobi-6-outils": 1,
     "item-rustol-92-biosource": 1,
     "item-boite-aux-lettres": 1,
     "item-boite-spaceo-23l": 1,
@@ -483,15 +483,27 @@
    }
   },
   "2026-11-26": {
-   "v": 5,
-   "p": 5,
+   "v": 8,
+   "p": 8,
    "c": {
-    "autre-lt-site": 2
+    "autre-lt-site": 2,
+    "item-pack-ryobi-6-outils": 1
    },
    "s": {
-    "Accès direct": 2,
-    "Instagram": 2,
+    "Instagram": 5,
+    "Accès direct": 3,
     "ig": 1
+   }
+  },
+  "2026-11-27": {
+   "v": 6,
+   "p": 6,
+   "c": {},
+   "s": {
+    "Accès direct": 2,
+    "Instagram": 1,
+    "Facebook": 1,
+    "YouTube": 1
    }
   }
  }

@@ -4,7 +4,27 @@ Disallow: /stats/
 Disallow: /liens/
 Disallow: /go/
 Disallow: /images/produits/infos/
-
-Sitemap: https://ozetsaruine.github.io/sitemap.xml
 Disallow: /test-nav.html
 Disallow: /test-go.html
+
+# Robots des moteurs de recherche IA : bienvenus
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: GPTBot
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: Bingbot
+Allow: /
+Disallow: /stats/
+Disallow: /liens/
+Disallow: /go/
+Disallow: /images/produits/infos/
+Disallow: /test-nav.html
+Disallow: /test-go.html
+
+Sitemap: https://ozetsaruine.github.io/sitemap.xml

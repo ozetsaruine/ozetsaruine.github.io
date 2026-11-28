@@ -470,10 +470,10 @@
     "item-rustol-92-biosource": 1,
     "item-boite-aux-lettres": 1,
     "item-boite-spaceo-23l": 1,
+    "autre-lt-instagram": 1,
     "item-ruban-led-cob": 1,
     "item-fermoir-hettich": 1,
-    "item-boite-clip-17l": 1,
-    "autre-lt-instagram": 1
+    "item-boite-clip-17l": 1
    },
    "s": {
     "Accès direct": 17,
@@ -496,14 +496,30 @@
    }
   },
   "2026-11-27": {
-   "v": 6,
-   "p": 6,
+   "v": 17,
+   "p": 17,
+   "c": {
+    "item-evier-multifonction": 1,
+    "nav-ios-tente": 1,
+    "nav-ios-refuse": 1,
+    "autre-lt-site": 1,
+    "autre-lt-instagram": 1,
+    "autre-lt-youtube": 1
+   },
+   "s": {
+    "Accès direct": 8,
+    "Instagram": 3,
+    "YouTube": 3,
+    "ig": 1,
+    "Facebook": 1
+   }
+  },
+  "2026-11-28": {
+   "v": 3,
+   "p": 3,
    "c": {},
    "s": {
-    "Accès direct": 2,
-    "Instagram": 1,
-    "Facebook": 1,
-    "YouTube": 1
+    "Accès direct": 3
    }
   }
  }
